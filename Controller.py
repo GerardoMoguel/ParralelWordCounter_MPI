@@ -26,11 +26,16 @@ def main():
             else:
                 messagebox.showwarning("Cancelled", f"You cancelled at file {i + 1}. Stopping.")
                 return
+        # Show paths in popup
+        messagebox.showinfo("Files selected", "\n\n".join(file_paths))
 
-        # Show all selected paths
-        print("Selected file paths:")
-        for p in file_paths:
-            print(p)
+        # Also save to a file in a specific folder
+        output_path = r"D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\selected_paths.txt"
+
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(str(count) + "\n") #we put the counter first, that way the c++ file can use that value.
+            for path in file_paths:
+                f.write(path + "\n")
 
     except Exception as e:
         messagebox.showerror("Error", str(e))
