@@ -1,4 +1,3 @@
-3
+2
 D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/shakespeare_hamlet.txt
 D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/shakespeare_romeo_juliet.txt
-D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/shakespeare_the_merchant_of_venice.txt

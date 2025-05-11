@@ -5,12 +5,11 @@ Gerardo Moguel
 ============================================================================================
 This class is the controller of the whole project, it does the next services:
 --Mantains the whole GUI
---Reads the directory of the .txt files
+--Reads the path of the .txt files
 --Orders the c++ script to execute
 --Interpret the results from the c++ script
 --Plots the histogram of words, and the speedup graphs
 ============================================================================================
-
 
 
 ============================================================================================
@@ -31,6 +30,8 @@ from tkinter.filedialog import askopenfilenames
 from tkinter import Tk, simpledialog, messagebox, filedialog
 
 def main():
+
+
     """
     ================================================================================
                                 CREATE MAIN WINDOW & TABS
@@ -48,6 +49,7 @@ def main():
     tabview.add("Main tab")
     tabview.add("Words Histogram")
     tabview.add("Speedup Graph")
+
 
     """
     ================================================================================
@@ -81,22 +83,30 @@ def main():
     btn2.pack(padx=20, pady=10)
     btn2.pack_forget()
 
-    # Button click function
+
+    """
+    ================================================================================
+                                click function.
+      At some part, this method will "forget" a button that isnt instantiated yet, 
+       because the button uses this method to work, so its a mutual condependency.
+                Thats the reasson why it has a button as parameter
+    ================================================================================
+    """
     def click(button):
         try:
             try:
-                count = int(txtFld1.get("1.0", "end").strip())
+                count = int(txtFld1.get("1.0", "end").strip()) #Receive the number of books from the user
             except ValueError:
-                lbl3.configure(text="❌ Please enter a valid integer.")
+                lbl3.configure(text="Please enter a valid integer.")
                 return
 
             if count <= 0:
-                lbl3.configure(text="❌ Count must be positive.")
+                lbl3.configure(text="Count must be positive.")
                 return
 
             file_paths = []
 
-            for i in range(count):
+            for i in range(count): #receive the path from each book.txt
                 path = filedialog.askopenfilename(
                     title=f"Select .txt file {i + 1}",
                     filetypes=[("Text files", "*.txt")],
@@ -126,11 +136,10 @@ def main():
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
-    # Select files button
+    # the button that im talking about
     comnd = click
-    btn1 = ctk.CTkButton(master=main_tab, text="Select Files", command=lambda: click(btn1))
+    btn1 = ctk.CTkButton(master=main_tab, text="Select Files", command=lambda: click(btn1)) #"Select files" button
     btn1.pack(padx=20, pady=10)
-
 
 
     """
@@ -142,6 +151,7 @@ def main():
     histo_label = ctk.CTkLabel(master=histo_tab, text="Descripción para seleccionar gráficas.")
     histo_label.pack(padx=20, pady=20)
 
+
     """
     ================================================================================
                                 SPEEDUP GRAPH TAB
@@ -151,6 +161,7 @@ def main():
     speedup_label = ctk.CTkLabel(master=speedup_tab, text="Descripción de la gráfica de speedup.")
     speedup_label.pack(padx=20, pady=20)
 
+    #keeps the app running
     app.mainloop()
 
 
