@@ -10,6 +10,7 @@ This class is the controller of the whole project, it does the next services:
 --Interpret the results from the c++ script
 --Plots the histogram of words, and the speedup graphs
 ============================================================================================
+TL;DR = This is the controller that communicates between the GUI and .cpp scripts
 
 
 ============================================================================================
@@ -45,10 +46,98 @@ def main():
 
     # Create tab view
     tabview = ctk.CTkTabview(master=app)
-    tabview.pack(padx=20, pady=20)
-    tabview.add("Main tab")
+    #tabview.pack(padx=20, pady=20)
+    tabview.add("Main tab").pack(padx=20, pady=20)
     tabview.add("Words Histogram")
     tabview.add("Speedup Graph")
+
+    """
+    ================================================================================
+                              MAIN TAB METHODS (n methods)
+    ================================================================================
+    
+    1.
+    ================================================================================
+                                    <Click Function>
+      At some part, this method will "forget" a button that isn't instantiated yet, 
+       because that button uses this method to work, its a mutual dependency.
+                Thats the reason why it has a button as the parameter
+    ================================================================================
+    TL;DR = It has necessary button as parameter
+    """
+    file_paths = []
+    def click(button):
+        try:
+            try:
+                count = int(txtFld1.get("1.0", "end").strip()) #Receive the number of books from the user
+            except ValueError:
+                lbl3.configure(text="Please enter a valid integer.")
+                return
+
+            if count <= 0:
+                lbl3.configure(text="Count must be positive.")
+                return
+
+            #file_paths = []
+
+            for i in range(count): #receive the path from each book.txt
+                path = filedialog.askopenfilename(
+                    title=f"Select .txt file {i + 1}",
+                    filetypes=[("Text files", "*.txt")],
+                )
+                if path:
+                    file_paths.append(path)
+                else:
+                    messagebox.showwarning("Cancelled", f"You cancelled at file {i + 1}. Stopping.")
+                    return
+
+            # Show paths in label
+            output_text = "✅ Files selected:\n\n" + "\n\n".join(file_paths)
+            lbl3.configure(text=output_text)
+
+            # Save to file
+            output_path = r"D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\selected_paths.txt"
+            with open(output_path, "w", encoding="utf-8") as f:
+                f.write(str(count) + "\n")
+                for path in file_paths:
+                    f.write(path + "\n")
+
+            button.pack_forget() #no more counting books
+            txtFld1.pack_forget() #no more console writing >:o
+            lbl2.pack_forget() #no warm text asking you to write the input
+            lbl1.configure(text="Great!, now click on 'Analize' to begin the process of analisis.\n ")
+            btn2.pack(padx=20, pady=10)
+            #new tabs :)
+            tabview.add("Words Histogram").pack(padx=20, pady=20)
+            tabview.add("Speedup Graph").pack(padx=20, pady=20)
+        except Exception as e:
+            messagebox.showerror("Error", str(e))
+
+
+    """
+    2.
+    ================================================================================
+                                    <Animation in text>
+      To enterain the user while waiting :*
+    ================================================================================
+    """
+    def barberShopText(paths):
+        for i in range (paths):
+            print("sup boy")
+
+
+    """
+    3.
+    ================================================================================
+                                    <Analize Function>
+      It initializes the BagOfWords.cpp script, giving the selected_paths.txt file
+                                       as parameter.
+    ================================================================================
+    """
+    def analizeBtn():
+        tabview.add("Words Histogram").pack(padx=20,pady=20)
+        tabview.add("Speedup Graph").pack(padx=20,pady=20)
+        
 
 
     """
@@ -75,7 +164,7 @@ def main():
     lbl3.pack(padx=20, pady=5)
 
     # Entry
-    txtFld1 = ctk.CTkTextbox(master=main_frame, corner_radius=16, border_width=2, width=300, height=50)
+    txtFld1 = ctk.CTkTextbox(master=main_frame, corner_radius=16, border_width=2, width=300, height=50) #make it pretty 7u7
     txtFld1.pack(padx=20, pady=10)
 
     # Analize button
@@ -83,61 +172,7 @@ def main():
     btn2.pack(padx=20, pady=10)
     btn2.pack_forget()
 
-
-    """
-    ================================================================================
-                                click function.
-      At some part, this method will "forget" a button that isnt instantiated yet, 
-       because the button uses this method to work, so its a mutual condependency.
-                Thats the reasson why it has a button as parameter
-    ================================================================================
-    """
-    def click(button):
-        try:
-            try:
-                count = int(txtFld1.get("1.0", "end").strip()) #Receive the number of books from the user
-            except ValueError:
-                lbl3.configure(text="Please enter a valid integer.")
-                return
-
-            if count <= 0:
-                lbl3.configure(text="Count must be positive.")
-                return
-
-            file_paths = []
-
-            for i in range(count): #receive the path from each book.txt
-                path = filedialog.askopenfilename(
-                    title=f"Select .txt file {i + 1}",
-                    filetypes=[("Text files", "*.txt")],
-                )
-                if path:
-                    file_paths.append(path)
-                else:
-                    messagebox.showwarning("Cancelled", f"You cancelled at file {i + 1}. Stopping.")
-                    return
-
-            # Show paths in label
-            output_text = "✅ Files selected:\n\n" + "\n\n".join(file_paths)
-            lbl3.configure(text=output_text)
-
-            # Save to file
-            output_path = r"D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\selected_paths.txt"
-            with open(output_path, "w", encoding="utf-8") as f:
-                f.write(str(count) + "\n")
-                for path in file_paths:
-                    f.write(path + "\n")
-
-            button.pack_forget() 
-            txtFld1.pack_forget()
-            lbl2.pack_forget()
-            lbl1.configure(text="Great!, now click on 'Analize' to begin the process of analisis.\n ")
-            btn2.pack(padx=20, pady=10)
-        except Exception as e:
-            messagebox.showerror("Error", str(e))
-
     # the button that im talking about
-    comnd = click
     btn1 = ctk.CTkButton(master=main_tab, text="Select Files", command=lambda: click(btn1)) #"Select files" button
     btn1.pack(padx=20, pady=10)
 

@@ -2,14 +2,7 @@
 
 
 ============================================================================================
-This class generates an individual hashmap of unique words used in each book,
-it also generates a "global hashmap" with the words all the books sent.
-
-    This hashmaps are used in the "word counter" algorithms.
-
-This process will be made serial and parallel, because i got curious if it can be paralelized,
-and how this affects the execution time.
-Thanks for reading.
+This class counts every word used in every book. 
 ============================================================================================
 */
 
@@ -20,9 +13,10 @@ Thanks for reading.
 */
 #include <iostream> 
 #include <vector>
+#include <unordered_map>
 using namespace std;
 
-class contadorPalabrasSerial{
+class WordCounters{
 
 /*
 ============================================================================================
