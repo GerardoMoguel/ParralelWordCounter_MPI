@@ -117,18 +117,6 @@ def main():
     """
     2.
     ================================================================================
-                                    <Animation in text>
-      To enterain the user while waiting :*
-    ================================================================================
-    """
-    def barberShopText(paths):
-        for i in range (paths):
-            print("sup boy")
-
-
-    """
-    3.
-    ================================================================================
                                     <Analize Function>
       It initializes the BagOfWords.cpp script, giving the selected_paths.txt file
                                        as parameter.
@@ -163,8 +151,8 @@ def main():
     lbl3 = ctk.CTkLabel(master=main_frame, text="Waiting for input...")
     lbl3.pack(padx=20, pady=5)
 
-    # Entry
-    txtFld1 = ctk.CTkTextbox(master=main_frame, corner_radius=16, border_width=2, width=300, height=50) #make it pretty 7u7
+    # Textbox
+    txtFld1 = ctk.CTkTextbox(master=main_frame, corner_radius=16, border_width=2, width=300, height=50) #make the textbox roundy
     txtFld1.pack(padx=20, pady=10)
 
     # Analize button
@@ -172,8 +160,8 @@ def main():
     btn2.pack(padx=20, pady=10)
     btn2.pack_forget()
 
-    # the button that im talking about
-    btn1 = ctk.CTkButton(master=main_tab, text="Select Files", command=lambda: click(btn1)) #"Select files" button
+    # Select files button
+    btn1 = ctk.CTkButton(master=main_tab, text="Select Files", command=lambda: click(btn1))
     btn1.pack(padx=20, pady=10)
 
 
@@ -185,7 +173,7 @@ def main():
     histo_tab = tabview.tab("Words Histogram")
     histo_label = ctk.CTkLabel(master=histo_tab, text="Descripción para seleccionar gráficas.")
     histo_label.pack(padx=20, pady=20)
-
+    #this has to be built, until we finish executing the .cpp scripts.
 
     """
     ================================================================================
