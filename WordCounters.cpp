@@ -1,309 +1,227 @@
-/*Gerardo Moguel
-
-
-============================================================================================
-This class counts every word used in every book. 
-============================================================================================
-*/
-
-/*
-============================================================================================
-                                        IMPORTS
-============================================================================================
-*/
-#include <iostream> 
+#include <iostream>
 #include <vector>
 #include <mpi.h>
 #include <fstream>
-#include <iomanip>
 #include <sstream>
 #include <string>
-#include <vector>
 #include <map>
 #include <chrono>
-#include <unordered_map>
+#include <iomanip>
+
 using namespace std;
 using namespace std::chrono;
 
-class WordCounters{
+// MPI message tags
+enum {
+    TAG_NUMBOOKS = 1,
+    TAG_BOOKLEN,
+    TAG_WORDCOUNT,
+    TAG_WORDLEN,
+    TAG_WORD,
+    TAG_VALUE
+};
 
-/*
-============================================================================================
-                                       ATRIBUTES
-============================================================================================
-*/
-map<string, vector<int>> wordMap; //map with the bag of words
+class WordCounters {
+    map<string, vector<int>> wordMap;
 
-/*
-============================================================================================
-                                TURNS .TXT FILE INTO MAP
-============================================================================================
-*/
 public:
-void fileToMap(const string& filename) {
-    ifstream infile(filename);
-
-    if (!infile.is_open()) {
-        cout << "Could not open the file." << endl;
-        return;
-    }
-    string line;
-
-    // Skip the header line
-    getline(infile, line);
-
-    while (getline(infile, line)) {
-        stringstream ss(line);
-        string word;
-        ss >> word; //the first word is the "word"
-
-        vector<int> counts;
-        int count;
-        while (ss >> count) { //number by number
-            counts.push_back(count);
+    void fileToMap(const string& filename) {
+        wordMap.clear();
+        ifstream infile(filename);
+        if (!infile.is_open()) {
+            cerr << "Could not open map file: " << filename << endl;
+            MPI_Abort(MPI_COMM_WORLD, 1);
         }
-        wordMap[word] = counts;
-    }
-}
-
-
-/*
-============================================================================================
-                                    SERIAL COUNTER
-============================================================================================
-*/
-void serialCounter(const string& filename){
-        ifstream books(filename);
-
-    if (!books.is_open()) {
-        cout << "Could not open the file." << endl;
-        return;
-    }
-    string line;
-    getline(books,line); //the first line tells the number of books to analize.
-    int numBooks = stoi(line);
-    string book;
-    for(int i=0;i<numBooks;i++){
-
-        getline(books,book);
-        ifstream bookfile(book); //opens new file
-        if (!bookfile.is_open()) {
-            cout << "Could not open the file." << endl;
-            return;
-        }
-        //puts each unique word in the map
-        while (getline(bookfile, line)) {
-            istringstream stream(line);
+        string line;
+        getline(infile, line); // skip header
+        while (getline(infile, line)) {
+            stringstream ss(line);
             string word;
-
-            while (stream >> word) {
-                if (wordMap.find(word) != wordMap.end()) { // If the word is in the map
-                    wordMap[word][i] +=1; //iif it finds it, it adds one count
-                }
-            }
+            ss >> word;
+            vector<int> counts;
+            int count;
+            while (ss >> count) counts.push_back(count);
+            wordMap[word] = counts;
         }
-        bookfile.close();
-    }
-    // Write to file in Outputs folder
-    string outputPath = R"(D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\file_map_serial.txt)";
-    ofstream out(outputPath);
-    if (!out.is_open()) {
-        cout << "Failed to write to output file." << endl;
-        return;
     }
 
-    // Header
-    out << "word";
-    for (int i = 0; i < numBooks; i++) {
-        out << "\tbook" << i;
-    }
-    out << endl;
-
-    // Content
-    for (const auto& [word, counts] : wordMap) {
-        out << word;
-        for (int count : counts) {
-            out << "\t" << count;
-        }
-        out << "\n";
-    }
-    out.close();
-    books.close();
-}
-
-/*
-============================================================================================
-                                   PARALLEL COUNTER
-============================================================================================
-*/
-void mpiCounter(const string& filename){
-    
-    MPI_Init(NULL, NULL);
-    int rank, size;
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &size);
-
-    int numBooks;
-    vector<string> bookList;
-
-    //the Master reads the filenames and broadcasts them
-    if(rank == 0) {
+    void serialCounter(const string& filename) {
         ifstream books(filename);
         if (!books.is_open()) {
-            cout << "Could not open the file." << endl;
-            MPI_Abort(MPI_COMM_WORLD, 1);
+            cerr << "Could not open paths file: " << filename << endl;
+            return;
         }
 
         string line;
         getline(books, line);
-        numBooks = stoi(line); //get the number of books
+        int numBooks = stoi(line);
+        string book;
+        map<string, vector<int>> localMap;
 
-        if(numBooks != size) { //in case the number of books is not the same number as process.
-            MPI_Abort(MPI_COMM_WORLD, 1);
-        }
+        for (int i = 0; i < numBooks; ++i) {
+            getline(books, book);
+            ifstream bookfile(book);
+            if (!bookfile.is_open()) {
+                cerr << "Could not open book: " << book << endl;
+                return;
+            }
 
-        bookList.resize(numBooks); //adds to the list of book paths
-        for(int i = 0; i < numBooks; i++) {
-            getline(books, bookList[i]);
-        }
-        books.close();
-    }
-
-    // Broadcast numBooks
-    MPI_Bcast(&numBooks, 1, MPI_INT, 0, MPI_COMM_WORLD);
-
-    // Prepare to broadcast book filenames
-    if(rank != 0) bookList.resize(numBooks);
-
-    for(int i = 0; i < numBooks; i++) {
-        int len;
-        if(rank == 0){
-            len = bookList[i].size();
-        }
-        MPI_Bcast(&len, 1, MPI_INT, 0, MPI_COMM_WORLD);
-
-        bookList[i].resize(len);
-        MPI_Bcast(bookList[i].data(), len, MPI_CHAR, 0, MPI_COMM_WORLD);
-    }
-
-    // Each process analyzes exactly one book
-    string book = bookList[rank];
-    ifstream bookfile(book);
-    if (!bookfile.is_open()) {
-        return;
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
-
-    string line;
-    while (getline(bookfile, line)) {
-        istringstream stream(line);
-        string word;
-        while (stream >> word) {;
-            wordMap[word][rank] += 1;
-        }
-    }
-    bookfile.close();
-
-    // Gather all data on master
-    if(rank == 0) {
-        for(int p = 1; p < size; p++) { //"p" from process... starts in 1, since the process 0 is master :p
-            for(const auto& [word, counts] : wordMap) {
-                int wordLen;
-                MPI_Recv(&wordLen, 1, MPI_INT, p, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-
-                string recvWord(wordLen, ' ');
-                MPI_Recv(recvWord.data(), wordLen, MPI_CHAR, p, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-
-                int count;
-                MPI_Recv(&count, 1, MPI_INT, p, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                wordMap[recvWord][p] = count;
+            while (getline(bookfile, line)) {
+                istringstream stream(line);
+                string word;
+                while (getline(stream, word, ',')) {
+                    if (localMap.find(word) == localMap.end()) {
+                        localMap[word] = vector<int>(numBooks, 0);
+                    }
+                    localMap[word][i]++;
+                }
             }
         }
 
-        // Write combined results
-        string outputPath = R"(D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\file_map_parallel.txt)";
-        ofstream out(outputPath);
-        if (!out.is_open()) {
-            cout << "Failed to write to output file." << endl;
-            MPI_Abort(MPI_COMM_WORLD, 1);
-        }
-
+        ofstream out("Outputs/file_map_serial.txt");
         out << "word";
-        for (int i = 0; i < numBooks; i++) {
-            out << "\tbook" << i;
-        }
-        out << endl;
-
-        for (const auto& [word, counts] : wordMap) {
-            out << word;
-            for (int count : counts) {
-                out << "\t" << count;
-            }
+        for (int i = 0; i < numBooks; ++i) out << "\tbook" << i;
+        out << "\n";
+        for (auto& [w, counts] : localMap) {
+            out << w;
+            for (int c : counts) out << "\t" << c;
             out << "\n";
         }
-        out.close();
-
-    } else {
-        for(const auto& [word, counts] : wordMap) {
-            int wordLen = word.size();
-            MPI_Send(&wordLen, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
-            MPI_Send(word.data(), wordLen, MPI_CHAR, 0, 0, MPI_COMM_WORLD);
-
-            int count = counts[rank];
-            MPI_Send(&count, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
-        }
     }
 
-    MPI_Finalize();
-}
+    void mpiCounter(const string& filename, int rank, int size) {
+        int numBooks = 0;
+        vector<string> bookList;
+        string line;
 
+        if (rank == 0) {
+            ifstream books(filename);
+            getline(books, line);
+            numBooks = stoi(line);
+            bookList.resize(numBooks);
+            for (int i = 0; i < numBooks; ++i)
+                getline(books, bookList[i]);
+        }
 
+        MPI_Bcast(&numBooks, 1, MPI_INT, 0, MPI_COMM_WORLD);
+        bookList.resize(numBooks);
+        for (int i = 0; i < numBooks; ++i) {
+            int len = bookList[i].size();
+            MPI_Bcast(&len, 1, MPI_INT, 0, MPI_COMM_WORLD);
+            bookList[i].resize(len);
+            MPI_Bcast(bookList[i].data(), len, MPI_CHAR, 0, MPI_COMM_WORLD);
+        }
+
+        if (rank >= numBooks) return;  // <- Evita procesos de más
+
+        map<string, vector<int>> localMap;
+        ifstream bookfile(bookList[rank]);
+        if (!bookfile.is_open()) {
+            cerr << "Rank " << rank << ": Could not open book file: " << bookList[rank] << endl;
+            MPI_Abort(MPI_COMM_WORLD, 2);
+        }
+
+        while (getline(bookfile, line)) {
+            istringstream stream(line);
+            string word;
+            while (getline(stream, word, ',')) {
+                if (localMap.find(word) == localMap.end()) {
+                    localMap[word] = vector<int>(numBooks, 0);
+                }
+                localMap[word][rank]++;
+            }
+        }
+
+        if (rank == 0) {
+            for (int p = 1; p < size; ++p) {
+                if (p >= numBooks) continue;
+
+                int wordCount;
+                MPI_Recv(&wordCount, 1, MPI_INT, p, TAG_WORDCOUNT, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                for (int w = 0; w < wordCount; ++w) {
+                    int wordLen;
+                    MPI_Recv(&wordLen, 1, MPI_INT, p, TAG_WORDLEN, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                    string word(wordLen, ' ');
+                    MPI_Recv(word.data(), wordLen, MPI_CHAR, p, TAG_WORD, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                    int count;
+                    MPI_Recv(&count, 1, MPI_INT, p, TAG_VALUE, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                    if (wordMap.find(word) == wordMap.end()) {
+                        wordMap[word] = vector<int>(numBooks, 0);
+                    }
+                    wordMap[word][p] = count;
+                }
+            }
+
+            for (auto& [w, counts] : localMap) {
+                if (wordMap.find(w) == wordMap.end()) {
+                    wordMap[w] = vector<int>(numBooks, 0);
+                }
+                wordMap[w][0] = counts[0];
+            }
+
+            ofstream out("Outputs/file_map_parallel.txt");
+            out << "word";
+            for (int i = 0; i < numBooks; ++i) out << "\tbook" << i;
+            out << "\n";
+            for (auto& [w, counts] : wordMap) {
+                out << w;
+                for (int c : counts) out << "\t" << c;
+                out << "\n";
+            }
+        } else {
+            int wordCount = localMap.size();
+            MPI_Send(&wordCount, 1, MPI_INT, 0, TAG_WORDCOUNT, MPI_COMM_WORLD);
+            for (auto& [w, counts] : localMap) {
+                int len = w.size();
+                MPI_Send(&len, 1, MPI_INT, 0, TAG_WORDLEN, MPI_COMM_WORLD);
+                MPI_Send(w.data(), len, MPI_CHAR, 0, TAG_WORD, MPI_COMM_WORLD);
+                int val = counts[rank];
+                MPI_Send(&val, 1, MPI_INT, 0, TAG_VALUE, MPI_COMM_WORLD);
+            }
+        }
+    }
 };
 
 int main(int argc, char* argv[]) {
-    string filePath = argv[2];
-    string maps = argv[1];
-    WordCounters a;
-
-    // Initialize MPI 
     MPI_Init(&argc, &argv);
-    int rank;
+    int rank, size;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-    // Only rank 0 does serial work
-double serialTime = 0.0;
-if (rank == 0) {
-    a.fileToMap(maps);
-    auto start = high_resolution_clock::now();
-    a.serialCounter(filePath);
-    auto end = high_resolution_clock::now();
-    serialTime = duration<double>(end - start).count();
-}
+    if (argc < 3) {
+        if (rank == 0) cerr << "Usage: program <map_file> <paths_file>" << endl;
+        MPI_Finalize();
+        return 1;
+    }
 
-// Sync before MPI timing
-MPI_Barrier(MPI_COMM_WORLD);
+    string mapFile  = argv[1];
+    string pathsFile = argv[2];
+    WordCounters wc;
 
-// Parallel timing (all ranks load map)
-a.fileToMap(maps);
-double startMPI = MPI_Wtime();
-a.mpiCounter(filePath);
-double endMPI = MPI_Wtime();
-double parallelTime = endMPI - startMPI;
+    double serialTime = 0.0;
+    if (rank == 0) {
+        wc.fileToMap(mapFile);
+        auto t0 = high_resolution_clock::now();
+        wc.serialCounter(pathsFile);
+        auto t1 = high_resolution_clock::now();
+        serialTime = duration<double>(t1 - t0).count();
+    }
 
-// Write both times to a file
-if (rank == 0) {
-    string path = R"(D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\execution_times.txt)";
-    ofstream out(path);
-    if (!out.is_open()) {
-        return;
-    } else {
-        out << std::fixed << std::setprecision(5);
+    MPI_Barrier(MPI_COMM_WORLD);
+
+    wc.fileToMap(mapFile);
+    double startMPI = MPI_Wtime();
+    wc.mpiCounter(pathsFile, rank, size);
+    double endMPI   = MPI_Wtime();
+    double parallelTime = endMPI - startMPI;
+
+    if (rank == 0) {
+        ofstream out("Outputs/execution_times.txt");
+        out << fixed << setprecision(5);
         out << "serial\tparallel\n";
         out << serialTime << "\t" << parallelTime << endl;
-        out.close();
     }
-}
 
-MPI_Finalize();
-return 0;
+    MPI_Finalize();
+    return 0;
 }

@@ -15,6 +15,8 @@ This maps are used in the "word counter" algorithms.
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <algorithm>
+#include <cctype> 
 #include <vector>
 #include <map>
 using namespace std;
@@ -28,6 +30,26 @@ class BagOfWords{
 int numBooks;
 map<string,vector<int>> bagOfWords;
 
+
+/*
+============================================================================================
+                                      Word Cleaner
+============================================================================================
+*/
+public:
+string cleanWord(string word) {
+    // Replace punctuation with spaces
+    for (char& c : word) {
+        if (ispunct(c)) {
+            c = ' ';
+        }
+    }
+
+    // Convert to lowercase
+    transform(word.begin(), word.end(), word.begin(), ::tolower);
+
+    return word;
+}
 /*
 ============================================================================================
                           Receives the file from the python script
@@ -45,8 +67,6 @@ void processFile(const string& path) { //won't modify the String, therefore is a
     }
     getline(file, line); //reads the first line, to get the num of books.
     numBooks = stoi(line); 
-    //with the number of books, it creates n maps, to have individual bag of words for each book, 
-    //it also fills the "global" map with all the words
     string bookPath; //variable to keep the paths Strings
     for(int i=0;i<numBooks;i++){
         getline(file,bookPath);
@@ -58,9 +78,9 @@ void processFile(const string& path) { //won't modify the String, therefore is a
         
         //puts each unique word in the map
         while (getline(bookfile, line)) {
+            line = cleanWord(line);
             istringstream stream(line);
             string word;
-
             while (stream >> word) {
                 if (bagOfWords.find(word) == bagOfWords.end()) { // If the word isn't in the map
                     bagOfWords[word] = vector<int>(numBooks,0); //initizalices in 0 all the books.
@@ -89,7 +109,7 @@ void processFile(const string& path) { //won't modify the String, therefore is a
         for (const auto& [word, counts] : bagOfWords) {
             out << word;
             for (int count : counts) {
-                out << "\t" << count;
+                out << "\t" << "0";
             }
             out << "\n";
         }
@@ -100,11 +120,8 @@ void processFile(const string& path) { //won't modify the String, therefore is a
 
 //Main
 int main(int argc, char* argv[]) { //receives parameter from python
-    string filePath = argv[1];
+    string filePaths = argv[1];
     BagOfWords a;
-    a.processFile(filePath);
-    string fileMap = R"(D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\file_maps.txt)";
-    string command = "WordCounters.exe " + fileMap, filePath;
-    system(command.c_str());
+    a.processFile(argv[1]);
     return 0;
 }

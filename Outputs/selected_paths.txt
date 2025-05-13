@@ -1,4 +1,7 @@
-3
-D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/shakespeare_romeo_juliet.txt
+6
 D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/shakespeare_the_merchant_of_venice.txt
+D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/shakespeare_romeo_juliet.txt
 D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/shakespeare_hamlet.txt
+D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/dickens_oliver_twist.txt
+D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/dickens_a_tale_of_two_cities.txt
+D:/Documentos/GitHub/ParralelWordCounter_MPI/Books_for_testing/dickens_a_christmas_carol.txt

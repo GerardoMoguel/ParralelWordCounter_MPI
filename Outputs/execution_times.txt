@@ -1,0 +1,2 @@
+serial	parallel
+0.23839	410.35984
