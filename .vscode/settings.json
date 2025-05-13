@@ -13,6 +13,7 @@
         "xhash": "cpp",
         "xutility": "cpp",
         "fstream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "map": "cpp"
     }
 }

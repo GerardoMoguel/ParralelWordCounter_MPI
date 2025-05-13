@@ -104,7 +104,7 @@ int main(int argc, char* argv[]) { //receives parameter from python
     BagOfWords a;
     a.processFile(filePath);
     string fileMap = R"(D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\file_maps.txt)";
-    string command = "WordCounters.exe " + fileMap;
+    string command = "WordCounters.exe " + fileMap, filePath;
     system(command.c_str());
     return 0;
 }
