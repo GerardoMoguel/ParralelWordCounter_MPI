@@ -96,7 +96,7 @@ def main():
             lbl3.configure(text=output_text)
 
             # Save to file
-            output_path = r"D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\selected_paths.txt"
+            output_path = r"D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\selected_paths.txt" #put the path to your outputs folder
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(str(count) + "\n")
                 for path in file_paths:
@@ -107,9 +107,7 @@ def main():
             lbl2.pack_forget() #no warm text asking you to write the input
             lbl1.configure(text="Great!, now click on 'Analize' to begin the process of analisis.\n ")
             btn2.pack(padx=20, pady=10)
-            #new tabs :)
-            tabview.add("Words Histogram").pack(padx=20, pady=20)
-            tabview.add("Speedup Graph").pack(padx=20, pady=20)
+
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
@@ -123,8 +121,15 @@ def main():
     ================================================================================
     """
     def analizeBtn():
-        tabview.add("Words Histogram").pack(padx=20,pady=20)
-        tabview.add("Speedup Graph").pack(padx=20,pady=20)
+        #new tabs :)
+        tabview.tab("Words Histogram").pack(padx=20, pady=20)
+        tabview.tab("Speedup Graph").pack(padx=20, pady=20)
+        # Path to the compiled C++ executable
+        exe_path = r"D:\Documentos\GitHub\ParralelWordCounter_MPI\Executables\BagOfWords.exe" #if you try this code at home, this line will break the code
+        # Path to the .txt file you want to pass as argument
+        paths_file = r"D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\selected_paths.txt" #this too, you need to put your own path
+        # Run the .exe with the file as argument
+        subprocess.run([exe_path, paths_file])
         
 
 

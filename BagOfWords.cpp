@@ -25,8 +25,8 @@ class BagOfWords{
                                        ATRIBUTES
 ============================================================================================
 */
-int num_books=0;
-vector<map<string,int>> listOfMaps;
+int numBooks;
+map<string,vector<int>> bagOfWords;
 
 /*
 ============================================================================================
@@ -34,55 +34,77 @@ vector<map<string,int>> listOfMaps;
                 (It reads the number of books and the location of each file)
 ============================================================================================
 */
-
+public:
 void processFile(const string& path) { //won't modify the String, therefore is a constant, and "&" to avoid making copies
     ifstream file(path);
     string line;
-    map<string,int> global_map;
-    listOfMaps.push_back(global_map);
     //tries to open the file
     if (!file.is_open()) {
         cout << "Could not open the file." << endl;
         return;
     }
     getline(file, line); //reads the first line, to get the num of books.
-    int numBooks = stoi(line); 
+    numBooks = stoi(line); 
     //with the number of books, it creates n maps, to have individual bag of words for each book, 
     //it also fills the "global" map with all the words
     string bookPath; //variable to keep the paths Strings
-    for(int i=1;i<=numBooks;i++){
+    for(int i=0;i<numBooks;i++){
         getline(file,bookPath);
-        map<string,int> map;
-        listOfMaps.push_back(map); //creates the map in the array
-        file.close(); //closes the last file
-        ifstream file(bookPath); //opens new file
-
-        if (!file.is_open()) {
+        ifstream bookfile(bookPath); //opens new file
+        if (!bookfile.is_open()) {
             cout << "Could not open the file." << endl;
             return;
         }
         
-        //puts each unique word in the map i.
-        while (getline(file, line)) {
+        //puts each unique word in the map
+        while (getline(bookfile, line)) {
             istringstream stream(line);
             string word;
 
             while (stream >> word) {
-                if (listOfMaps[i].find(word) == listOfMaps[i].end()) { // If the word isn't in the map
-                    listOfMaps[i][word] = 0;  //it saves it with the value of 0.
-                }
-                if (listOfMaps[0].find(word) == listOfMaps[0].end()) { // find the word in the global map.
-                    listOfMaps[0][word] = 0;
+                if (bagOfWords.find(word) == bagOfWords.end()) { // If the word isn't in the map
+                    bagOfWords[word] = vector<int>(numBooks,0); //initizalices in 0 all the books.
                 }
             }
         }
+    bookfile.close();//closes the book file
     }
+    file.close(); //closes the "paths" file
+    // Write to file in Outputs folder
+        string outputPath = R"(D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\file_maps.txt)";
+        ofstream out(outputPath);
+        if (!out.is_open()) {
+            cout << "Failed to write to output file." << endl;
+            return;
+        }
 
-    file.close();
+        // Header
+        out << "word";
+        for (int i = 0; i < numBooks; i++) {
+            out << "\tbook" << i;
+        }
+        out << endl;
+
+        // Content
+        for (const auto& [word, counts] : bagOfWords) {
+            out << word;
+            for (int count : counts) {
+                out << "\t" << count;
+            }
+            out << "\n";
+        }
+
+        out.close();
 }
-
-    //Executes the WordCounters.cpp script
-    //giving the array of maps as parameter.
-    
-
 };
+
+//Main
+int main(int argc, char* argv[]) { //receives parameter from python
+    string filePath = argv[1];
+    BagOfWords a;
+    a.processFile(filePath);
+    string fileMap = R"(D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\file_maps.txt)";
+    string command = "WordCounters.exe " + fileMap;
+    system(command.c_str());
+    return 0;
+}
