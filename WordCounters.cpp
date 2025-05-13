@@ -15,12 +15,15 @@ This class counts every word used in every book.
 #include <vector>
 #include <mpi.h>
 #include <fstream>
+#include <iomanip>
 #include <sstream>
 #include <string>
 #include <vector>
 #include <map>
+#include <chrono>
 #include <unordered_map>
 using namespace std;
+using namespace std::chrono;
 
 class WordCounters{
 
@@ -268,15 +271,39 @@ int main(int argc, char* argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     // Only rank 0 does serial work
-    if (rank == 0) {
-        a.fileToMap(maps);
-        a.serialCounter(filePath);
+double serialTime = 0.0;
+if (rank == 0) {
+    a.fileToMap(maps);
+    auto start = high_resolution_clock::now();
+    a.serialCounter(filePath);
+    auto end = high_resolution_clock::now();
+    serialTime = duration<double>(end - start).count();
+}
+
+// Sync before MPI timing
+MPI_Barrier(MPI_COMM_WORLD);
+
+// Parallel timing (all ranks load map)
+a.fileToMap(maps);
+double startMPI = MPI_Wtime();
+a.mpiCounter(filePath);
+double endMPI = MPI_Wtime();
+double parallelTime = endMPI - startMPI;
+
+// Write both times to a file
+if (rank == 0) {
+    string path = R"(D:\Documentos\GitHub\ParralelWordCounter_MPI\Outputs\execution_times.txt)";
+    ofstream out(path);
+    if (!out.is_open()) {
+        return;
+    } else {
+        out << std::fixed << std::setprecision(5);
+        out << "serial\tparallel\n";
+        out << serialTime << "\t" << parallelTime << endl;
+        out.close();
     }
+}
 
-    // All ranks prepare for MPI run
-    a.fileToMap(maps);  // all ranks must load the same map
-    a.mpiCounter(filePath);
-
-    MPI_Finalize();
-    return 0;
+MPI_Finalize();
+return 0;
 }
