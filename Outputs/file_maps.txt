@@ -64,7 +64,6 @@ word	book0	book1	book2	book3	book4	book5
 150	0	0	0	0	0	0
 1500	0	0	0	0	0	0
 1513	0	0	0	0	0	0
-1515	0	0	0	0	0	0
 1595	0	0	0	0	0	0
 16	0	0	0	0	0	0
 17	0	0	0	0	0	0
@@ -84,7 +83,6 @@ word	book0	book1	book2	book3	book4	book5
 1993	0	0	0	0	0	0
 1994	0	0	0	0	0	0
 1996	0	0	0	0	0	0
-1998	0	0	0	0	0	0
 1999	0	0	0	0	0	0
 1em	0	0	0	0	0	0
 1px	0	0	0	0	0	0
@@ -95,7 +93,6 @@ word	book0	book1	book2	book3	book4	book5
 2001	0	0	0	0	0	0
 2007	0	0	0	0	0	0
 2020	0	0	0	0	0	0
-2021	0	0	0	0	0	0
 2022	0	0	0	0	0	0
 2026	0	0	0	0	0	0
 21	0	0	0	0	0	0
@@ -254,7 +251,6 @@ abr	0	0	0	0	0	0
 abraham	0	0	0	0	0	0
 abram	0	0	0	0	0	0
 abreast	0	0	0	0	0	0
-abridg	0	0	0	0	0	0
 abridge	0	0	0	0	0	0
 abridgement	0	0	0	0	0	0
 abroach	0	0	0	0	0	0
@@ -291,7 +287,6 @@ accede	0	0	0	0	0	0
 accent	0	0	0	0	0	0
 accept	0	0	0	0	0	0
 acceptable	0	0	0	0	0	0
-acceptance	0	0	0	0	0	0
 acceptation	0	0	0	0	0	0
 access	0	0	0	0	0	0
 accesse	0	0	0	0	0	0
@@ -320,7 +315,6 @@ accordingly	0	0	0	0	0	0
 accost	0	0	0	0	0	0
 accosted	0	0	0	0	0	0
 account	0	0	0	0	0	0
-accouter	0	0	0	0	0	0
 accoutre	0	0	0	0	0	0
 accumulate	0	0	0	0	0	0
 accur	0	0	0	0	0	0
@@ -330,7 +324,6 @@ accurately	0	0	0	0	0	0
 accurse	0	0	0	0	0	0
 accursed	0	0	0	0	0	0
 accurst	0	0	0	0	0	0
-accus	0	0	0	0	0	0
 accusation	0	0	0	0	0	0
 accusatory	0	0	0	0	0	0
 accuse	0	0	0	0	0	0
@@ -339,7 +332,6 @@ accustomed	0	0	0	0	0	0
 ace	0	0	0	0	0	0
 acerbity	0	0	0	0	0	0
 ache	0	0	0	0	0	0
-achiev	0	0	0	0	0	0
 achieve	0	0	0	0	0	0
 achievement	0	0	0	0	0	0
 acknowledge	0	0	0	0	0	0
@@ -455,11 +447,9 @@ advertise	0	0	0	0	0	0
 advertisement	0	0	0	0	0	0
 advertiser	0	0	0	0	0	0
 advice	0	0	0	0	0	0
-advis	0	0	0	0	0	0
 advisability	0	0	0	0	0	0
 advisable	0	0	0	0	0	0
 advise	0	0	0	0	0	0
-advisedly	0	0	0	0	0	0
 adviser	0	0	0	0	0	0
 advisor	0	0	0	0	0	0
 advocate	0	0	0	0	0	0
@@ -503,7 +493,6 @@ afraid	0	0	0	0	0	0
 afresh	0	0	0	0	0	0
 afternoon	0	0	0	0	0	0
 afternoone	0	0	0	0	0	0
-afterward	0	0	0	0	0	0
 afterwards	0	0	0	0	0	0
 againe	0	0	0	0	0	0
 agate	0	0	0	0	0	0
@@ -564,7 +553,6 @@ alarum	0	0	0	0	0	0
 alas	0	0	0	0	0	0
 albans	0	0	0	0	0	0
 albeit	0	0	0	0	0	0
-alcide	0	0	0	0	0	0
 alcove	0	0	0	0	0	0
 alderman	0	0	0	0	0	0
 ale	0	0	0	0	0	0
@@ -572,10 +560,8 @@ alert	0	0	0	0	0	0
 alexander	0	0	0	0	0	0
 alexandre	0	0	0	0	0	0
 ali	0	0	0	0	0	0
-alien	0	0	0	0	0	0
 alienate	0	0	0	0	0	0
 alight	0	0	0	0	0	0
-alighted	0	0	0	0	0	0
 align	0	0	0	0	0	0
 aligned	0	0	0	0	0	0
 alijs	0	0	0	0	0	0
@@ -739,11 +725,9 @@ anticke	0	0	0	0	0	0
 antike	0	0	0	0	0	0
 antimonial	0	0	0	0	0	0
 antipathy	0	0	0	0	0	0
-antipode	0	0	0	0	0	0
 antique	0	0	0	0	0	0
 antiquity	0	0	0	0	0	0
 antoine	0	0	0	0	0	0
-antonio	0	0	0	0	0	0
 anxiety	0	0	0	0	0	0
 anxious	0	0	0	0	0	0
 anxiously	0	0	0	0	0	0
@@ -789,7 +773,6 @@ appealing	0	0	0	0	0	0
 appear	0	0	0	0	0	0
 appearance	0	0	0	0	0	0
 appeare	0	0	0	0	0	0
-appeareth	0	0	0	0	0	0
 appellation	0	0	0	0	0	0
 appendage	0	0	0	0	0	0
 appertain	0	0	0	0	0	0
@@ -822,7 +805,6 @@ apprise	0	0	0	0	0	0
 approach	0	0	0	0	0	0
 approbation	0	0	0	0	0	0
 appropriate	0	0	0	0	0	0
-appropriation	0	0	0	0	0	0
 approue	0	0	0	0	0	0
 approval	0	0	0	0	0	0
 approve	0	0	0	0	0	0
@@ -837,9 +819,7 @@ aqua	0	0	0	0	0	0
 aquiline	0	0	0	0	0	0
 aquirement	0	0	0	0	0	0
 ar	0	0	0	0	0	0
-arabia	0	0	0	0	0	0
 arabian	0	0	0	0	0	0
-aragon	0	0	0	0	0	0
 arbitrary	0	0	0	0	0	0
 arbitrate	0	0	0	0	0	0
 arch	0	0	0	0	0	0
@@ -853,11 +833,9 @@ ardour	0	0	0	0	0	0
 ardure	0	0	0	0	0	0
 area	0	0	0	0	0	0
 argall	0	0	0	0	0	0
-argosy	0	0	0	0	0	0
 argue	0	0	0	0	0	0
 argument	0	0	0	0	0	0
 argumentative	0	0	0	0	0	0
-argus	0	0	0	0	0	0
 aright	0	0	0	0	0	0
 arise	0	0	0	0	0	0
 arisen	0	0	0	0	0	0
@@ -881,7 +859,6 @@ arose	0	0	0	0	0	0
 around	0	0	0	0	0	0
 arouse	0	0	0	0	0	0
 arra	0	0	0	0	0	0
-arragon	0	0	0	0	0	0
 arraign	0	0	0	0	0	0
 arraigne	0	0	0	0	0	0
 arrange	0	0	0	0	0	0
@@ -1020,7 +997,6 @@ attempt	0	0	0	0	0	0
 attend	0	0	0	0	0	0
 attendance	0	0	0	0	0	0
 attendant	0	0	0	0	0	0
-attendeth	0	0	0	0	0	0
 attent	0	0	0	0	0	0
 attention	0	0	0	0	0	0
 attentive	0	0	0	0	0	0
@@ -1079,12 +1055,9 @@ avoidance	0	0	0	0	0	0
 avow	0	0	0	0	0	0
 avowal	0	0	0	0	0	0
 await	0	0	0	0	0	0
-awak	0	0	0	0	0	0
 awake	0	0	0	0	0	0
 awaken	0	0	0	0	0	0
 awakening	0	0	0	0	0	0
-award	0	0	0	0	0	0
-awards	0	0	0	0	0	0
 aware	0	0	0	0	0	0
 awaricious	0	0	0	0	0	0
 away	0	0	0	0	0	0
@@ -1136,8 +1109,6 @@ baffle	0	0	0	0	0	0
 baffled	0	0	0	0	0	0
 bag	0	0	0	0	0	0
 baggage	0	0	0	0	0	0
-bagpipe	0	0	0	0	0	0
-bagpiper	0	0	0	0	0	0
 bah	0	0	0	0	0	0
 bail	0	0	0	0	0	0
 bailey	0	0	0	0	0	0
@@ -1158,7 +1129,6 @@ ballad	0	0	0	0	0	0
 ballast	0	0	0	0	0	0
 balmy	0	0	0	0	0	0
 balthasar	0	0	0	0	0	0
-balthazar	0	0	0	0	0	0
 balustrade	0	0	0	0	0	0
 balustrades	0	0	0	0	0	0
 bamboo	0	0	0	0	0	0
@@ -1187,7 +1157,6 @@ baptista	0	0	0	0	0	0
 baptiz	0	0	0	0	0	0
 baptize	0	0	0	0	0	0
 bar	0	0	0	0	0	0
-barabbas	0	0	0	0	0	0
 barbarian	0	0	0	0	0	0
 barbarous	0	0	0	0	0	0
 barbars	0	0	0	0	0	0
@@ -1233,7 +1202,6 @@ basin	0	0	0	0	0	0
 bask	0	0	0	0	0	0
 basket	0	0	0	0	0	0
 bass	0	0	0	0	0	0
-bassanio	0	0	0	0	0	0
 bastard	0	0	0	0	0	0
 bastille	0	0	0	0	0	0
 bat	0	0	0	0	0	0
@@ -1300,7 +1268,6 @@ beauty	0	0	0	0	0	0
 beauvais	0	0	0	0	0	0
 beaver	0	0	0	0	0	0
 became	0	0	0	0	0	0
-bechanc	0	0	0	0	0	0
 beck	0	0	0	0	0	0
 becke	0	0	0	0	0	0
 becken	0	0	0	0	0	0
@@ -1313,7 +1280,6 @@ becomingly	0	0	0	0	0	0
 bed	0	0	0	0	0	0
 bedaub	0	0	0	0	0	0
 bedeck	0	0	0	0	0	0
-bedfellow	0	0	0	0	0	0
 bedight	0	0	0	0	0	0
 bedlam	0	0	0	0	0	0
 bedpost	0	0	0	0	0	0
@@ -1339,7 +1305,6 @@ befriend	0	0	0	0	0	0
 beg	0	0	0	0	0	0
 began	0	0	0	0	0	0
 beget	0	0	0	0	0	0
-begg	0	0	0	0	0	0
 beggar	0	0	0	0	0	0
 beggard	0	0	0	0	0	0
 beggarly	0	0	0	0	0	0
@@ -1352,8 +1317,6 @@ beginner	0	0	0	0	0	0
 beginning	0	0	0	0	0	0
 begirt	0	0	0	0	0	0
 begone	0	0	0	0	0	0
-begot	0	0	0	0	0	0
-begotten	0	0	0	0	0	0
 begrime	0	0	0	0	0	0
 begrimed	0	0	0	0	0	0
 beguil	0	0	0	0	0	0
@@ -1391,13 +1354,10 @@ believeth	0	0	0	0	0	0
 belike	0	0	0	0	0	0
 belinda	0	0	0	0	0	0
 bell	0	0	0	0	0	0
-bellario	0	0	0	0	0	0
 belle	0	0	0	0	0	0
 belligerent	0	0	0	0	0	0
 bellow	0	0	0	0	0	0
-bellowing	0	0	0	0	0	0
 belly	0	0	0	0	0	0
-belmont	0	0	0	0	0	0
 belong	0	0	0	0	0	0
 belou	0	0	0	0	0	0
 belov	0	0	0	0	0	0
@@ -1568,8 +1528,6 @@ blaze	0	0	0	0	0	0
 blazon	0	0	0	0	0	0
 ble	0	0	0	0	0	0
 bleak	0	0	0	0	0	0
-blear	0	0	0	0	0	0
-bleat	0	0	0	0	0	0
 bleating	0	0	0	0	0	0
 bleed	0	0	0	0	0	0
 bleede	0	0	0	0	0	0
@@ -1579,11 +1537,9 @@ blend	0	0	0	0	0	0
 blended	0	0	0	0	0	0
 blending	0	0	0	0	0	0
 blenkinship	0	0	0	0	0	0
-blent	0	0	0	0	0	0
 bles	0	0	0	0	0	0
 bless	0	0	0	0	0	0
 blesse	0	0	0	0	0	0
-blesseth	0	0	0	0	0	0
 blessing	0	0	0	0	0	0
 blessings	0	0	0	0	0	0
 blest	0	0	0	0	0	0
@@ -1608,7 +1564,6 @@ blooded	0	0	0	0	0	0
 bloodie	0	0	0	0	0	0
 bloodily	0	0	0	0	0	0
 bloodless	0	0	0	0	0	0
-bloods	0	0	0	0	0	0
 bloodshed	0	0	0	0	0	0
 bloodshot	0	0	0	0	0	0
 bloodthirsty	0	0	0	0	0	0
@@ -1681,7 +1636,6 @@ bombazeen	0	0	0	0	0	0
 bon	0	0	0	0	0	0
 bond	0	0	0	0	0	0
 bondage	0	0	0	0	0	0
-bondman	0	0	0	0	0	0
 bone	0	0	0	0	0	0
 boned	0	0	0	0	0	0
 bonet	0	0	0	0	0	0
@@ -1756,7 +1710,6 @@ bracelet	0	0	0	0	0	0
 bracket	0	0	0	0	0	0
 brag	0	0	0	0	0	0
 braggart	0	0	0	0	0	0
-bragging	0	0	0	0	0	0
 braid	0	0	0	0	0	0
 brain	0	0	0	0	0	0
 braine	0	0	0	0	0	0
@@ -1770,13 +1723,11 @@ brandish	0	0	0	0	0	0
 brands	0	0	0	0	0	0
 brandy	0	0	0	0	0	0
 brass	0	0	0	0	0	0
-brassy	0	0	0	0	0	0
 brat	0	0	0	0	0	0
 braue	0	0	0	0	0	0
 brauery	0	0	0	0	0	0
 brave	0	0	0	0	0	0
 bravely	0	0	0	0	0	0
-braver	0	0	0	0	0	0
 bravery	0	0	0	0	0	0
 bravo	0	0	0	0	0	0
 brawl	0	0	0	0	0	0
@@ -1847,7 +1798,6 @@ brimful	0	0	0	0	0	0
 brimmed	0	0	0	0	0	0
 brine	0	0	0	0	0	0
 bring	0	0	0	0	0	0
-bringeth	0	0	0	0	0	0
 bringing	0	0	0	0	0	0
 brink	0	0	0	0	0	0
 brisk	0	0	0	0	0	0
@@ -1908,7 +1858,6 @@ bugge	0	0	0	0	0	0
 build	0	0	0	0	0	0
 builde	0	0	0	0	0	0
 building	0	0	0	0	0	0
-builds	0	0	0	0	0	0
 bulk	0	0	0	0	0	0
 bulke	0	0	0	0	0	0
 bulky	0	0	0	0	0	0
@@ -1929,7 +1878,6 @@ bunghole	0	0	0	0	0	0
 buoy	0	0	0	0	0	0
 burden	0	0	0	0	0	0
 burdensome	0	0	0	0	0	0
-burgher	0	0	0	0	0	0
 burglar	0	0	0	0	0	0
 burglarie	0	0	0	0	0	0
 burglarious	0	0	0	0	0	0
@@ -1941,14 +1889,12 @@ burn	0	0	0	0	0	0
 burne	0	0	0	0	0	0
 burneth	0	0	0	0	0	0
 burning	0	0	0	0	0	0
-burnish	0	0	0	0	0	0
 burst	0	0	0	0	0	0
 bursting	0	0	0	0	0	0
 burthen	0	0	0	0	0	0
 bury	0	0	0	0	0	0
 buryin	0	0	0	0	0	0
 burying	0	0	0	0	0	0
-bus	0	0	0	0	0	0
 bush	0	0	0	0	0	0
 bushel	0	0	0	0	0	0
 busie	0	0	0	0	0	0
@@ -1987,7 +1933,6 @@ cabinet	0	0	0	0	0	0
 cable	0	0	0	0	0	0
 cabriolet	0	0	0	0	0	0
 cachet	0	0	0	0	0	0
-cackling	0	0	0	0	0	0
 cad	0	0	0	0	0	0
 cadaverous	0	0	0	0	0	0
 caddy	0	0	0	0	0	0
@@ -2117,7 +2062,6 @@ carrion	0	0	0	0	0	0
 carry	0	0	0	0	0	0
 cart	0	0	0	0	0	0
 carter	0	0	0	0	0	0
-carthage	0	0	0	0	0	0
 carton	0	0	0	0	0	0
 cartridge	0	0	0	0	0	0
 carue	0	0	0	0	0	0
@@ -2128,8 +2072,6 @@ casement	0	0	0	0	0	0
 cash	0	0	0	0	0	0
 cashier	0	0	0	0	0	0
 cask	0	0	0	0	0	0
-casket	0	0	0	0	0	0
-caskets	0	0	0	0	0	0
 cast	0	0	0	0	0	0
 castanet	0	0	0	0	0	0
 caste	0	0	0	0	0	0
@@ -2139,7 +2081,6 @@ castor	0	0	0	0	0	0
 casual	0	0	0	0	0	0
 casuall	0	0	0	0	0	0
 casually	0	0	0	0	0	0
-casualty	0	0	0	0	0	0
 cat	0	0	0	0	0	0
 cataleptic	0	0	0	0	0	0
 catalogue	0	0	0	0	0	0
@@ -2148,10 +2089,8 @@ catastrophe	0	0	0	0	0	0
 catch	0	0	0	0	0	0
 catechism	0	0	0	0	0	0
 catechist	0	0	0	0	0	0
-cater	0	0	0	0	0	0
 cathedral	0	0	0	0	0	0
 catle	0	0	0	0	0	0
-cato	0	0	0	0	0	0
 cattle	0	0	0	0	0	0
 cauiarie	0	0	0	0	0	0
 cause	0	0	0	0	0	0
@@ -2190,8 +2129,6 @@ central	0	0	0	0	0	0
 centre	0	0	0	0	0	0
 century	0	0	0	0	0	0
 cept	0	0	0	0	0	0
-cerecloth	0	0	0	0	0	0
-ceremoniously	0	0	0	0	0	0
 ceremony	0	0	0	0	0	0
 cerimony	0	0	0	0	0	0
 cerments	0	0	0	0	0	0
@@ -2269,12 +2206,9 @@ charm	0	0	0	0	0	0
 charme	0	0	0	0	0	0
 charming	0	0	0	0	0	0
 charmingly	0	0	0	0	0	0
-charname	0	0	0	0	0	0
 charnel	0	0	0	0	0	0
-charter	0	0	0	0	0	0
 charwoman	0	0	0	0	0	0
 chary	0	0	0	0	0	0
-charybdis	0	0	0	0	0	0
 chase	0	0	0	0	0	0
 chast	0	0	0	0	0	0
 chaste	0	0	0	0	0	0
@@ -2314,7 +2248,6 @@ cherish	0	0	0	0	0	0
 cherry	0	0	0	0	0	0
 chertsey	0	0	0	0	0	0
 cherube	0	0	0	0	0	0
-cherubin	0	0	0	0	0	0
 chest	0	0	0	0	0	0
 chester	0	0	0	0	0	0
 chestnut	0	0	0	0	0	0
@@ -2328,7 +2261,6 @@ chid	0	0	0	0	0	0
 chide	0	0	0	0	0	0
 chiding	0	0	0	0	0	0
 chief	0	0	0	0	0	0
-chiefest	0	0	0	0	0	0
 chiefly	0	0	0	0	0	0
 child	0	0	0	0	0	0
 childe	0	0	0	0	0	0
@@ -2362,8 +2294,6 @@ chol	0	0	0	0	0	0
 choleric	0	0	0	0	0	0
 choller	0	0	0	0	0	0
 choose	0	0	0	0	0	0
-chooseth	0	0	0	0	0	0
-choosing	0	0	0	0	0	0
 chop	0	0	0	0	0	0
 chopfalne	0	0	0	0	0	0
 choplogic	0	0	0	0	0	0
@@ -2377,7 +2307,6 @@ chouse	0	0	0	0	0	0
 chowgh	0	0	0	0	0	0
 choyce	0	0	0	0	0	0
 choyse	0	0	0	0	0	0
-christ	0	0	0	0	0	0
 christian	0	0	0	0	0	0
 christians	0	0	0	0	0	0
 christma	0	0	0	0	0	0
@@ -2396,7 +2325,6 @@ churches	0	0	0	0	0	0
 churchyard	0	0	0	0	0	0
 churl	0	0	0	0	0	0
 churlish	0	0	0	0	0	0
-chus	0	0	0	0	0	0
 cicatrice	0	0	0	0	0	0
 cinder	0	0	0	0	0	0
 cinderella	0	0	0	0	0	0
@@ -2417,7 +2345,6 @@ circumstantial	0	0	0	0	0	0
 circumstantially	0	0	0	0	0	0
 circumuent	0	0	0	0	0	0
 circumwente	0	0	0	0	0	0
-cite	0	0	0	0	0	0
 citizen	0	0	0	0	0	0
 citizeness	0	0	0	0	0	0
 city	0	0	0	0	0	0
@@ -2425,7 +2352,6 @@ civil	0	0	0	0	0	0
 civility	0	0	0	0	0	0
 claim	0	0	0	0	0	0
 claime	0	0	0	0	0	0
-clamber	0	0	0	0	0	0
 clambre	0	0	0	0	0	0
 clammy	0	0	0	0	0	0
 clamorous	0	0	0	0	0	0
@@ -2487,7 +2413,6 @@ climate75	0	0	0	0	0	0
 climax	0	0	0	0	0	0
 climb	0	0	0	0	0	0
 climbing	0	0	0	0	0	0
-clime	0	0	0	0	0	0
 cling	0	0	0	0	0	0
 clink	0	0	0	0	0	0
 clo	0	0	0	0	0	0
@@ -2549,7 +2474,6 @@ coated	0	0	0	0	0	0
 coating	0	0	0	0	0	0
 coax	0	0	0	0	0	0
 coaxingly	0	0	0	0	0	0
-cobwebs	0	0	0	0	0	0
 cock	0	0	0	0	0	0
 cockade	0	0	0	0	0	0
 cockatrice	0	0	0	0	0	0
@@ -2562,7 +2486,6 @@ code	0	0	0	0	0	0
 codger	0	0	0	0	0	0
 coercion	0	0	0	0	0	0
 coffee	0	0	0	0	0	0
-coffer	0	0	0	0	0	0
 coffin	0	0	0	0	0	0
 coffinlid	0	0	0	0	0	0
 cogitate	0	0	0	0	0	0
@@ -2579,7 +2502,6 @@ coinage	0	0	0	0	0	0
 coincidence	0	0	0	0	0	0
 coiner	0	0	0	0	0	0
 colaterall	0	0	0	0	0	0
-colchos	0	0	0	0	0	0
 cold	0	0	0	0	0	0
 colder	0	0	0	0	0	0
 coldest	0	0	0	0	0	0
@@ -2602,7 +2524,6 @@ colour	0	0	0	0	0	0
 coloured	0	0	0	0	0	0
 colourless	0	0	0	0	0	0
 colours	0	0	0	0	0	0
-colt	0	0	0	0	0	0
 columbine	0	0	0	0	0	0
 com	0	0	0	0	0	0
 comb	0	0	0	0	0	0
@@ -2633,7 +2554,6 @@ comin	0	0	0	0	0	0
 coming	0	0	0	0	0	0
 comma	0	0	0	0	0	0
 command	0	0	0	0	0	0
-commanded	0	0	0	0	0	0
 commandment	0	0	0	0	0	0
 comme	0	0	0	0	0	0
 commence	0	0	0	0	0	0
@@ -2644,7 +2564,6 @@ commendable	0	0	0	0	0	0
 commendation	0	0	0	0	0	0
 commended	0	0	0	0	0	0
 commending	0	0	0	0	0	0
-commends	0	0	0	0	0	0
 comment	0	0	0	0	0	0
 commercial	0	0	0	0	0	0
 commercially	0	0	0	0	0	0
@@ -2657,12 +2576,10 @@ committed	0	0	0	0	0	0
 committee	0	0	0	0	0	0
 committees	0	0	0	0	0	0
 committing	0	0	0	0	0	0
-commodity	0	0	0	0	0	0
 common	0	0	0	0	0	0
 commonest	0	0	0	0	0	0
 commonly	0	0	0	0	0	0
 commons	0	0	0	0	0	0
-commonwealth	0	0	0	0	0	0
 commotion	0	0	0	0	0	0
 commune	0	0	0	0	0	0
 communicate	0	0	0	0	0	0
@@ -2691,7 +2608,6 @@ compel	0	0	0	0	0	0
 compell	0	0	0	0	0	0
 compelling	0	0	0	0	0	0
 compensate	0	0	0	0	0	0
-competency	0	0	0	0	0	0
 competent	0	0	0	0	0	0
 competitor	0	0	0	0	0	0
 compilation	0	0	0	0	0	0
@@ -2732,7 +2648,6 @@ comprehensive	0	0	0	0	0	0
 compress	0	0	0	0	0	0
 compression	0	0	0	0	0	0
 comprise	0	0	0	0	0	0
-compromis	0	0	0	0	0	0
 compromise	0	0	0	0	0	0
 compulsatiue	0	0	0	0	0	0
 compulsion	0	0	0	0	0	0
@@ -2823,7 +2738,6 @@ conflict	0	0	0	0	0	0
 confound	0	0	0	0	0	0
 confront	0	0	0	0	0	0
 confronted	0	0	0	0	0	0
-confus	0	0	0	0	0	0
 confuse	0	0	0	0	0	0
 confused	0	0	0	0	0	0
 confusedly	0	0	0	0	0	0
@@ -2833,7 +2747,6 @@ congenial	0	0	0	0	0	0
 congratulate	0	0	0	0	0	0
 congratulation	0	0	0	0	0	0
 congratulatory	0	0	0	0	0	0
-congregate	0	0	0	0	0	0
 congregation	0	0	0	0	0	0
 congress	0	0	0	0	0	0
 coniecture	0	0	0	0	0	0
@@ -2877,7 +2790,6 @@ consignment	0	0	0	0	0	0
 consist	0	0	0	0	0	0
 consistent	0	0	0	0	0	0
 consistently	0	0	0	0	0	0
-consisteth	0	0	0	0	0	0
 consolation	0	0	0	0	0	0
 consolatory	0	0	0	0	0	0
 console	0	0	0	0	0	0
@@ -2896,7 +2808,6 @@ constant	0	0	0	0	0	0
 constantly	0	0	0	0	0	0
 consternation	0	0	0	0	0	0
 constitute	0	0	0	0	0	0
-constitution	0	0	0	0	0	0
 constrain	0	0	0	0	0	0
 constraint	0	0	0	0	0	0
 construct	0	0	0	0	0	0
@@ -2959,7 +2870,6 @@ contrive	0	0	0	0	0	0
 contrived	0	0	0	0	0	0
 control	0	0	0	0	0	0
 controuersie	0	0	0	0	0	0
-controversy	0	0	0	0	0	0
 controvert	0	0	0	0	0	0
 contumely	0	0	0	0	0	0
 conuenience	0	0	0	0	0	0
@@ -2973,7 +2883,6 @@ conueyance	0	0	0	0	0	0
 conuocation	0	0	0	0	0	0
 conuoy	0	0	0	0	0	0
 convenience	0	0	0	0	0	0
-conveniency	0	0	0	0	0	0
 convenient	0	0	0	0	0	0
 conveniently	0	0	0	0	0	0
 convent	0	0	0	0	0	0
@@ -3034,7 +2943,6 @@ corn	0	0	0	0	0	0
 cornelius	0	0	0	0	0	0
 corner	0	0	0	0	0	0
 cornered	0	0	0	0	0	0
-cornet	0	0	0	0	0	0
 corney	0	0	0	0	0	0
 cornhill	0	0	0	0	0	0
 cornice	0	0	0	0	0	0
@@ -3059,7 +2967,6 @@ corroboration	0	0	0	0	0	0
 corroborative	0	0	0	0	0	0
 corrupt	0	0	0	0	0	0
 corruption	0	0	0	0	0	0
-corruptly	0	0	0	0	0	0
 corse	0	0	0	0	0	0
 cosily	0	0	0	0	0	0
 cosin	0	0	0	0	0	0
@@ -3102,7 +3009,6 @@ countless	0	0	0	0	0	0
 countrey	0	0	0	0	0	0
 country	0	0	0	0	0	0
 countryman	0	0	0	0	0	0
-countrymen	0	0	0	0	0	0
 county	0	0	0	0	0	0
 couple	0	0	0	0	0	0
 courage	0	0	0	0	0	0
@@ -3142,7 +3048,6 @@ cower	0	0	0	0	0	0
 cowered	0	0	0	0	0	0
 coynage	0	0	0	0	0	0
 coz	0	0	0	0	0	0
-cozen	0	0	0	0	0	0
 crab	0	0	0	0	0	0
 crack	0	0	0	0	0	0
 cracke	0	0	0	0	0	0
@@ -3170,7 +3075,6 @@ crawl	0	0	0	0	0	0
 craze	0	0	0	0	0	0
 crazy	0	0	0	0	0	0
 creak	0	0	0	0	0	0
-cream	0	0	0	0	0	0
 creasing	0	0	0	0	0	0
 create	0	0	0	0	0	0
 creation	0	0	0	0	0	0
@@ -3182,7 +3086,6 @@ credential	0	0	0	0	0	0
 credit	0	0	0	0	0	0
 creditable	0	0	0	0	0	0
 creditor	0	0	0	0	0	0
-creditors	0	0	0	0	0	0
 credulity	0	0	0	0	0	0
 creek	0	0	0	0	0	0
 creep	0	0	0	0	0	0
@@ -3190,7 +3093,6 @@ creepe	0	0	0	0	0	0
 creetur	0	0	0	0	0	0
 creeturs	0	0	0	0	0	0
 cressant	0	0	0	0	0	0
-cressid	0	0	0	0	0	0
 crestfallen	0	0	0	0	0	0
 crevice	0	0	0	0	0	0
 crew	0	0	0	0	0	0
@@ -3226,7 +3128,6 @@ crop	0	0	0	0	0	0
 cross	0	0	0	0	0	0
 crosse	0	0	0	0	0	0
 crossing	0	0	0	0	0	0
-crost	0	0	0	0	0	0
 crotchet	0	0	0	0	0	0
 crouch	0	0	0	0	0	0
 crow	0	0	0	0	0	0
@@ -3264,7 +3165,6 @@ css	0	0	0	0	0	0
 cub	0	0	0	0	0	0
 cubbert	0	0	0	0	0	0
 cuckold	0	0	0	0	0	0
-cuckoo	0	0	0	0	0	0
 cud	0	0	0	0	0	0
 cudgel	0	0	0	0	0	0
 cudgell	0	0	0	0	0	0
@@ -3289,10 +3189,8 @@ cuplet	0	0	0	0	0	0
 cupola	0	0	0	0	0	0
 cur	0	0	0	0	0	0
 curator	0	0	0	0	0	0
-curb	0	0	0	0	0	0
 curd	0	0	0	0	0	0
 cure	0	0	0	0	0	0
-cureless	0	0	0	0	0	0
 curfew	0	0	0	0	0	0
 curiosity	0	0	0	0	0	0
 curious	0	0	0	0	0	0
@@ -3304,7 +3202,6 @@ curling	0	0	0	0	0	0
 currant	0	0	0	0	0	0
 current	0	0	0	0	0	0
 currently	0	0	0	0	0	0
-currish	0	0	0	0	0	0
 curs	0	0	0	0	0	0
 curse	0	0	0	0	0	0
 cursed	0	0	0	0	0	0
@@ -3367,12 +3264,10 @@ dane	0	0	0	0	0	0
 danger	0	0	0	0	0	0
 dangerous	0	0	0	0	0	0
 dangle	0	0	0	0	0	0
-daniel	0	0	0	0	0	0
 danish	0	0	0	0	0	0
 dank	0	0	0	0	0	0
 dansker	0	0	0	0	0	0
 dar	0	0	0	0	0	0
-dardanian	0	0	0	0	0	0
 dare	0	0	0	0	0	0
 daren	0	0	0	0	0	0
 dark	0	0	0	0	0	0
@@ -3551,7 +3446,6 @@ delirious	0	0	0	0	0	0
 deliuer	0	0	0	0	0	0
 deliver	0	0	0	0	0	0
 deliverance	0	0	0	0	0	0
-delivering	0	0	0	0	0	0
 delivery	0	0	0	0	0	0
 deluer	0	0	0	0	0	0
 deluge	0	0	0	0	0	0
@@ -3563,7 +3457,6 @@ demeanor	0	0	0	0	0	0
 demeanour	0	0	0	0	0	0
 demente	0	0	0	0	0	0
 demesne	0	0	0	0	0	0
-demi	0	0	0	0	0	0
 demogalized	0	0	0	0	0	0
 demolition	0	0	0	0	0	0
 demon	0	0	0	0	0	0
@@ -3620,7 +3513,6 @@ depth	0	0	0	0	0	0
 deputy	0	0	0	0	0	0
 der	0	0	0	0	0	0
 deriding	0	0	0	0	0	0
-deriv	0	0	0	0	0	0
 derivable	0	0	0	0	0	0
 derivative	0	0	0	0	0	0
 derive	0	0	0	0	0	0
@@ -3641,17 +3533,14 @@ deserted	0	0	0	0	0	0
 deserting	0	0	0	0	0	0
 desertion	0	0	0	0	0	0
 deserue	0	0	0	0	0	0
-deserv	0	0	0	0	0	0
 deserve	0	0	0	0	0	0
 deserved	0	0	0	0	0	0
-deserving	0	0	0	0	0	0
 design	0	0	0	0	0	0
 designate	0	0	0	0	0	0
 designation	0	0	0	0	0	0
 designe	0	0	0	0	0	0
 designedly	0	0	0	0	0	0
 designing	0	0	0	0	0	0
-desir	0	0	0	0	0	0
 desirable	0	0	0	0	0	0
 desire	0	0	0	0	0	0
 desirest	0	0	0	0	0	0
@@ -3758,7 +3647,6 @@ didst	0	0	0	0	0	0
 die	0	0	0	0	0	0
 died	0	0	0	0	0	0
 diem	0	0	0	0	0	0
-diest	0	0	0	0	0	0
 diet	0	0	0	0	0	0
 dietary	0	0	0	0	0	0
 diff	0	0	0	0	0	0
@@ -3821,8 +3709,6 @@ dirge	0	0	0	0	0	0
 dirt	0	0	0	0	0	0
 dirtiest	0	0	0	0	0	0
 dirty	0	0	0	0	0	0
-disable	0	0	0	0	0	0
-disabled	0	0	0	0	0	0
 disadvantage	0	0	0	0	0	0
 disagree	0	0	0	0	0	0
 disagreeable	0	0	0	0	0	0
@@ -3880,7 +3766,6 @@ disfigure	0	0	0	0	0	0
 disfigured	0	0	0	0	0	0
 disfigurement	0	0	0	0	0	0
 disgorge	0	0	0	0	0	0
-disgrac	0	0	0	0	0	0
 disgrace	0	0	0	0	0	0
 disgraceful	0	0	0	0	0	0
 disguis	0	0	0	0	0	0
@@ -3932,7 +3817,6 @@ displace	0	0	0	0	0	0
 displacement	0	0	0	0	0	0
 displant	0	0	0	0	0	0
 display	0	0	0	0	0	0
-displea	0	0	0	0	0	0
 displeas	0	0	0	0	0	0
 displeased	0	0	0	0	0	0
 displeasure	0	0	0	0	0	0
@@ -4029,7 +3913,6 @@ divulge	0	0	0	0	0	0
 dizzy	0	0	0	0	0	0
 do	0	0	0	0	0	0
 doat	0	0	0	0	0	0
-dobbin	0	0	0	0	0	0
 dobody	0	0	0	0	0	0
 docile	0	0	0	0	0	0
 dock	0	0	0	0	0	0
@@ -4052,7 +3935,6 @@ doggedly	0	0	0	0	0	0
 dogs	0	0	0	0	0	0
 doin	0	0	0	0	0	0
 doing	0	0	0	0	0	0
-doit	0	0	0	0	0	0
 dole	0	0	0	0	0	0
 doleful	0	0	0	0	0	0
 doll	0	0	0	0	0	0
@@ -4125,7 +4007,6 @@ downright	0	0	0	0	0	0
 downstairs	0	0	0	0	0	0
 downward	0	0	0	0	0	0
 dowrie	0	0	0	0	0	0
-dowry	0	0	0	0	0	0
 doze	0	0	0	0	0	0
 dozed	0	0	0	0	0	0
 dozen	0	0	0	0	0	0
@@ -4197,15 +4078,12 @@ driveth	0	0	0	0	0	0
 driving	0	0	0	0	0	0
 drizzle	0	0	0	0	0	0
 droll	0	0	0	0	0	0
-drone	0	0	0	0	0	0
 droop	0	0	0	0	0	0
 drooped	0	0	0	0	0	0
 drop	0	0	0	0	0	0
 dropcap	0	0	0	0	0	0
-droppeth	0	0	0	0	0	0
 dropping	0	0	0	0	0	0
 dropsical	0	0	0	0	0	0
-dross	0	0	0	0	0	0
 drossie	0	0	0	0	0	0
 drover	0	0	0	0	0	0
 drown	0	0	0	0	0	0
@@ -4228,12 +4106,10 @@ drunken	0	0	0	0	0	0
 drunkeness	0	0	0	0	0	0
 drunkenness	0	0	0	0	0	0
 dry	0	0	0	0	0	0
-dst	0	0	0	0	0	0
 dubious	0	0	0	0	0	0
 dubiously	0	0	0	0	0	0
 ducat	0	0	0	0	0	0
 ducate	0	0	0	0	0	0
-ducats	0	0	0	0	0	0
 duck	0	0	0	0	0	0
 due	0	0	0	0	0	0
 duel	0	0	0	0	0	0
@@ -4244,7 +4120,6 @@ dug	0	0	0	0	0	0
 dugge	0	0	0	0	0	0
 duke	0	0	0	0	0	0
 dul	0	0	0	0	0	0
-dulcet	0	0	0	0	0	0
 dull	0	0	0	0	0	0
 duller	0	0	0	0	0	0
 dullness	0	0	0	0	0	0
@@ -4288,8 +4163,6 @@ eager	0	0	0	0	0	0
 eagerly	0	0	0	0	0	0
 eagerness	0	0	0	0	0	0
 eagle	0	0	0	0	0	0
-eane	0	0	0	0	0	0
-eanling	0	0	0	0	0	0
 ear	0	0	0	0	0	0
 eare	0	0	0	0	0	0
 earl	0	0	0	0	0	0
@@ -4324,7 +4197,6 @@ eatable	0	0	0	0	0	0
 eatables	0	0	0	0	0	0
 eate	0	0	0	0	0	0
 eaten	0	0	0	0	0	0
-eater	0	0	0	0	0	0
 eating	0	0	0	0	0	0
 eavesdropper	0	0	0	0	0	0
 ebb	0	0	0	0	0	0
@@ -4336,7 +4208,6 @@ ebullition	0	0	0	0	0	0
 eccentric	0	0	0	0	0	0
 eccentricity	0	0	0	0	0	0
 ecclesiastic	0	0	0	0	0	0
-eche	0	0	0	0	0	0
 echo	0	0	0	0	0	0
 echoed	0	0	0	0	0	0
 echoes	0	0	0	0	0	0
@@ -4446,7 +4317,6 @@ embellishment	0	0	0	0	0	0
 ember	0	0	0	0	0	0
 emblem	0	0	0	0	0	0
 embolden	0	0	0	0	0	0
-embrac	0	0	0	0	0	0
 embrace	0	0	0	0	0	0
 embracing	0	0	0	0	0	0
 embrasure	0	0	0	0	0	0
@@ -4526,7 +4396,6 @@ endue	0	0	0	0	0	0
 endur	0	0	0	0	0	0
 endurance	0	0	0	0	0	0
 endure	0	0	0	0	0	0
-endymion	0	0	0	0	0	0
 ene	0	0	0	0	0	0
 enemie	0	0	0	0	0	0
 enemies	0	0	0	0	0	0
@@ -4535,13 +4404,10 @@ energetic	0	0	0	0	0	0
 energetically	0	0	0	0	0	0
 energy	0	0	0	0	0	0
 enfold	0	0	0	0	0	0
-enforc	0	0	0	0	0	0
 enforce	0	0	0	0	0	0
-engag	0	0	0	0	0	0
 engage	0	0	0	0	0	0
 engaged	0	0	0	0	0	0
 engagement	0	0	0	0	0	0
-engend	0	0	0	0	0	0
 engender	0	0	0	0	0	0
 engine	0	0	0	0	0	0
 england	0	0	0	0	0	0
@@ -4563,12 +4429,10 @@ enmity	0	0	0	0	0	0
 ennactor	0	0	0	0	0	0
 enormous	0	0	0	0	0	0
 enough	0	0	0	0	0	0
-enow	0	0	0	0	0	0
 enpierce	0	0	0	0	0	0
 enquire	0	0	0	0	0	0
 enrage	0	0	0	0	0	0
 enrich	0	0	0	0	0	0
-enrobe	0	0	0	0	0	0
 enseame	0	0	0	0	0	0
 enshrine	0	0	0	0	0	0
 enshroud	0	0	0	0	0	0
@@ -4597,7 +4461,6 @@ entirely	0	0	0	0	0	0
 entitle	0	0	0	0	0	0
 entity	0	0	0	0	0	0
 entrance	0	0	0	0	0	0
-entrap	0	0	0	0	0	0
 entreat	0	0	0	0	0	0
 entreated	0	0	0	0	0	0
 entreatie	0	0	0	0	0	0
@@ -4642,11 +4505,8 @@ era	0	0	0	0	0	0
 erase	0	0	0	0	0	0
 ercover	0	0	0	0	0	0
 ere	0	0	0	0	0	0
-erebus	0	0	0	0	0	0
 erect	0	0	0	0	0	0
 erence	0	0	0	0	0	0
-ergo	0	0	0	0	0	0
-erlook	0	0	0	0	0	0
 ernest	0	0	0	0	0	0
 erperch	0	0	0	0	0	0
 err	0	0	0	0	0	0
@@ -4654,9 +4514,6 @@ errand	0	0	0	0	0	0
 error	0	0	0	0	0	0
 erruption	0	0	0	0	0	0
 erst	0	0	0	0	0	0
-erstare	0	0	0	0	0	0
-erta	0	0	0	0	0	0
-ertrip	0	0	0	0	0	0
 es	0	0	0	0	0	0
 escalus	0	0	0	0	0	0
 escape	0	0	0	0	0	0
@@ -4677,7 +4534,6 @@ establishment	0	0	0	0	0	0
 estate	0	0	0	0	0	0
 esteem	0	0	0	0	0	0
 esteemed	0	0	0	0	0	0
-estimable	0	0	0	0	0	0
 estimate	0	0	0	0	0	0
 estimation	0	0	0	0	0	0
 estrange	0	0	0	0	0	0
@@ -4724,7 +4580,6 @@ everlasting	0	0	0	0	0	0
 evermore	0	0	0	0	0	0
 every	0	0	0	0	0	0
 everybody	0	0	0	0	0	0
-everyone	0	0	0	0	0	0
 everything	0	0	0	0	0	0
 everywhere	0	0	0	0	0	0
 evidence	0	0	0	0	0	0
@@ -4736,11 +4591,8 @@ evincing	0	0	0	0	0	0
 evoke	0	0	0	0	0	0
 evolution	0	0	0	0	0	0
 evrã	0	0	0	0	0	0
-ewe	0	0	0	0	0	0
-ewes	0	0	0	0	0	0
 ex	0	0	0	0	0	0
 exact	0	0	0	0	0	0
-exaction	0	0	0	0	0	0
 exactly	0	0	0	0	0	0
 exaggerated	0	0	0	0	0	0
 exaggeration	0	0	0	0	0	0
@@ -4801,7 +4653,6 @@ exhausted	0	0	0	0	0	0
 exhausting	0	0	0	0	0	0
 exhaustion	0	0	0	0	0	0
 exhibit	0	0	0	0	0	0
-exhortation	0	0	0	0	0	0
 exil	0	0	0	0	0	0
 exile	0	0	0	0	0	0
 exist	0	0	0	0	0	0
@@ -4844,7 +4695,6 @@ explaining	0	0	0	0	0	0
 explanation	0	0	0	0	0	0
 explanatory	0	0	0	0	0	0
 explicit	0	0	0	0	0	0
-exploit	0	0	0	0	0	0
 explore	0	0	0	0	0	0
 explorer	0	0	0	0	0	0
 explosion	0	0	0	0	0	0
@@ -4897,7 +4747,6 @@ extravagantly	0	0	0	0	0	0
 extreamity	0	0	0	0	0	0
 extreme	0	0	0	0	0	0
 extremely	0	0	0	0	0	0
-extremest	0	0	0	0	0	0
 extremity	0	0	0	0	0	0
 extricate	0	0	0	0	0	0
 exuding	0	0	0	0	0	0
@@ -4961,15 +4810,12 @@ fairer	0	0	0	0	0	0
 fairest	0	0	0	0	0	0
 fairies	0	0	0	0	0	0
 fairly	0	0	0	0	0	0
-fairness	0	0	0	0	0	0
 fairy	0	0	0	0	0	0
 faith	0	0	0	0	0	0
 faithful	0	0	0	0	0	0
 faithfull	0	0	0	0	0	0
 faithfully	0	0	0	0	0	0
-faithless	0	0	0	0	0	0
 fal	0	0	0	0	0	0
-falconbridge	0	0	0	0	0	0
 falconer	0	0	0	0	0	0
 fall	0	0	0	0	0	0
 fallen	0	0	0	0	0	0
@@ -5050,7 +4896,6 @@ favour	0	0	0	0	0	0
 favourable	0	0	0	0	0	0
 favourite	0	0	0	0	0	0
 fawn	0	0	0	0	0	0
-fawning	0	0	0	0	0	0
 fay	0	0	0	0	0	0
 fayl	0	0	0	0	0	0
 fear	0	0	0	0	0	0
@@ -5077,7 +4922,6 @@ feebler	0	0	0	0	0	0
 feebly	0	0	0	0	0	0
 feed	0	0	0	0	0	0
 feede	0	0	0	0	0	0
-feeder	0	0	0	0	0	0
 feeding	0	0	0	0	0	0
 feel	0	0	0	0	0	0
 feele	0	0	0	0	0	0
@@ -5134,7 +4978,6 @@ fewest	0	0	0	0	0	0
 fey	0	0	0	0	0	0
 fezziwig	0	0	0	0	0	0
 fezziwig54	0	0	0	0	0	0
-fia	0	0	0	0	0	0
 fickle	0	0	0	0	0	0
 fickleness	0	0	0	0	0	0
 fiction	0	0	0	0	0	0
@@ -5153,7 +4996,6 @@ fiercely	0	0	0	0	0	0
 fiercer	0	0	0	0	0	0
 fierie	0	0	0	0	0	0
 fiery	0	0	0	0	0	0
-fife	0	0	0	0	0	0
 fifteen	0	0	0	0	0	0
 fifteenth	0	0	0	0	0	0
 fifth	0	0	0	0	0	0
@@ -5255,9 +5097,7 @@ flaw	0	0	0	0	0	0
 flaxen	0	0	0	0	0	0
 flay	0	0	0	0	0	0
 fleck	0	0	0	0	0	0
-fledge	0	0	0	0	0	0
 flee	0	0	0	0	0	0
-fleece	0	0	0	0	0	0
 fleer	0	0	0	0	0	0
 fleet	0	0	0	0	0	0
 fleeting	0	0	0	0	0	0
@@ -5359,7 +5199,6 @@ footstep	0	0	0	0	0	0
 footsteps	0	0	0	0	0	0
 footstool	0	0	0	0	0	0
 footway	0	0	0	0	0	0
-fopp	0	0	0	0	0	0
 forage	0	0	0	0	0	0
 forasmuch	0	0	0	0	0	0
 foray	0	0	0	0	0	0
@@ -5408,9 +5247,7 @@ foretold	0	0	0	0	0	0
 forever	0	0	0	0	0	0
 forfeit	0	0	0	0	0	0
 forfeite	0	0	0	0	0	0
-forfeiture	0	0	0	0	0	0
 forg	0	0	0	0	0	0
-forgave	0	0	0	0	0	0
 forge	0	0	0	0	0	0
 forger	0	0	0	0	0	0
 forgery	0	0	0	0	0	0
@@ -5464,7 +5301,6 @@ fortun	0	0	0	0	0	0
 fortunate	0	0	0	0	0	0
 fortunately	0	0	0	0	0	0
 fortune	0	0	0	0	0	0
-fortunes	0	0	0	0	0	0
 forty	0	0	0	0	0	0
 forward	0	0	0	0	0	0
 forwards	0	0	0	0	0	0
@@ -5494,7 +5330,6 @@ fragment	0	0	0	0	0	0
 fragrance	0	0	0	0	0	0
 frail	0	0	0	0	0	0
 frailty	0	0	0	0	0	0
-fram	0	0	0	0	0	0
 frame	0	0	0	0	0	0
 framework	0	0	0	0	0	0
 fran	0	0	0	0	0	0
@@ -5504,7 +5339,6 @@ franciscan	0	0	0	0	0	0
 francisco	0	0	0	0	0	0
 frank	0	0	0	0	0	0
 frankely	0	0	0	0	0	0
-frankfort	0	0	0	0	0	0
 frantic	0	0	0	0	0	0
 fraternal	0	0	0	0	0	0
 fraternity	0	0	0	0	0	0
@@ -5534,7 +5368,6 @@ fresher	0	0	0	0	0	0
 freshness	0	0	0	0	0	0
 fret	0	0	0	0	0	0
 fretfull	0	0	0	0	0	0
-fretten	0	0	0	0	0	0
 friar	0	0	0	0	0	0
 friday	0	0	0	0	0	0
 friend	0	0	0	0	0	0
@@ -5582,7 +5415,6 @@ fruitful	0	0	0	0	0	0
 fruitfull	0	0	0	0	0	0
 fruitless	0	0	0	0	0	0
 frustrate	0	0	0	0	0	0
-frutify	0	0	0	0	0	0
 fry	0	0	0	0	0	0
 ftp	0	0	0	0	0	0
 fuel	0	0	0	0	0	0
@@ -5593,7 +5425,6 @@ fulfilment	0	0	0	0	0	0
 full	0	0	0	0	0	0
 fully	0	0	0	0	0	0
 fulness	0	0	0	0	0	0
-fulsome	0	0	0	0	0	0
 fumble	0	0	0	0	0	0
 fumbled	0	0	0	0	0	0
 fume	0	0	0	0	0	0
@@ -5630,7 +5461,6 @@ fye	0	0	0	0	0	0
 g	0	0	0	0	0	0
 gab	0	0	0	0	0	0
 gabelle	0	0	0	0	0	0
-gaberdine	0	0	0	0	0	0
 gable	0	0	0	0	0	0
 gad	0	0	0	0	0	0
 gadso	0	0	0	0	0	0
@@ -5663,7 +5493,6 @@ gallowe	0	0	0	0	0	0
 galvanic	0	0	0	0	0	0
 gambal	0	0	0	0	0	0
 gamble	0	0	0	0	0	0
-gambol	0	0	0	0	0	0
 gamboll	0	0	0	0	0	0
 game	0	0	0	0	0	0
 games	0	0	0	0	0	0
@@ -5701,12 +5530,9 @@ gates	0	0	0	0	0	0
 gateway	0	0	0	0	0	0
 gather	0	0	0	0	0	0
 gathering	0	0	0	0	0	0
-gatorie	0	0	0	0	0	0
-gatory	0	0	0	0	0	0
 gau	0	0	0	0	0	0
 gaudy	0	0	0	0	0	0
 gaue	0	0	0	0	0	0
-gauge	0	0	0	0	0	0
 gaugy	0	0	0	0	0	0
 gaul	0	0	0	0	0	0
 gaule	0	0	0	0	0	0
@@ -5725,8 +5551,6 @@ gazing	0	0	0	0	0	0
 gbnewby	0	0	0	0	0	0
 gear	0	0	0	0	0	0
 geese	0	0	0	0	0	0
-gelt	0	0	0	0	0	0
-gem	0	0	0	0	0	0
 gen	0	0	0	0	0	0
 gender	0	0	0	0	0	0
 genealogy	0	0	0	0	0	0
@@ -5743,7 +5567,6 @@ genial	0	0	0	0	0	0
 genii	0	0	0	0	0	0
 genius	0	0	0	0	0	0
 genivine	0	0	0	0	0	0
-genoa	0	0	0	0	0	0
 gent	0	0	0	0	0	0
 genteel	0	0	0	0	0	0
 gentility	0	0	0	0	0	0
@@ -5762,7 +5585,6 @@ george	0	0	0	0	0	0
 germain	0	0	0	0	0	0
 germaine	0	0	0	0	0	0
 german	0	0	0	0	0	0
-germany	0	0	0	0	0	0
 gertrude	0	0	0	0	0	0
 gesticulation	0	0	0	0	0	0
 gesture	0	0	0	0	0	0
@@ -5850,7 +5672,6 @@ glint	0	0	0	0	0	0
 glisten	0	0	0	0	0	0
 glistened	0	0	0	0	0	0
 glistening	0	0	0	0	0	0
-glister	0	0	0	0	0	0
 glitter	0	0	0	0	0	0
 glittered	0	0	0	0	0	0
 glo	0	0	0	0	0	0
@@ -5876,25 +5697,20 @@ go	0	0	0	0	0	0
 goad	0	0	0	0	0	0
 goaded	0	0	0	0	0	0
 goal	0	0	0	0	0	0
-goat	0	0	0	0	0	0
-gobbo	0	0	0	0	0	0
 goblet	0	0	0	0	0	0
 goblin	0	0	0	0	0	0
 god	0	0	0	0	0	0
 goddess	0	0	0	0	0	0
-godlike	0	0	0	0	0	0
 godmother	0	0	0	0	0	0
 goe	0	0	0	0	0	0
 goer	0	0	0	0	0	0
 goes	0	0	0	0	0	0
-goest	0	0	0	0	0	0
 goeth	0	0	0	0	0	0
 goin	0	0	0	0	0	0
 going	0	0	0	0	0	0
 gold	0	0	0	0	0	0
 golden	0	0	0	0	0	0
 gon	0	0	0	0	0	0
-gondola	0	0	0	0	0	0
 gone	0	0	0	0	0	0
 gonzago	0	0	0	0	0	0
 good	0	0	0	0	0	0
@@ -5903,7 +5719,6 @@ goodman	0	0	0	0	0	0
 goodness	0	0	0	0	0	0
 goodnight	0	0	0	0	0	0
 goodwill	0	0	0	0	0	0
-goodwin	0	0	0	0	0	0
 goose	0	0	0	0	0	0
 gore	0	0	0	0	0	0
 gorg	0	0	0	0	0	0
@@ -5911,7 +5726,6 @@ gorge	0	0	0	0	0	0
 gorgeous	0	0	0	0	0	0
 gorgeously	0	0	0	0	0	0
 gorgon	0	0	0	0	0	0
-gormandize	0	0	0	0	0	0
 gory	0	0	0	0	0	0
 gossamer	0	0	0	0	0	0
 gossip	0	0	0	0	0	0
@@ -5937,7 +5751,6 @@ gradually	0	0	0	0	0	0
 grain	0	0	0	0	0	0
 gramercy	0	0	0	0	0	0
 grand	0	0	0	0	0	0
-grandam	0	0	0	0	0	0
 grandchild	0	0	0	0	0	0
 grandeur	0	0	0	0	0	0
 grandfather	0	0	0	0	0	0
@@ -5961,7 +5774,6 @@ grated	0	0	0	0	0	0
 grateful	0	0	0	0	0	0
 gratefully	0	0	0	0	0	0
 grater	0	0	0	0	0	0
-gratiano	0	0	0	0	0	0
 gratification	0	0	0	0	0	0
 gratified	0	0	0	0	0	0
 gratify	0	0	0	0	0	0
@@ -5971,7 +5783,6 @@ gratis	0	0	0	0	0	0
 gratitude	0	0	0	0	0	0
 gratuitous	0	0	0	0	0	0
 graue	0	0	0	0	0	0
-grav	0	0	0	0	0	0
 grave	0	0	0	0	0	0
 gravel	0	0	0	0	0	0
 gravely	0	0	0	0	0	0
@@ -5979,7 +5790,6 @@ gravestone	0	0	0	0	0	0
 gravity	0	0	0	0	0	0
 gravy	0	0	0	0	0	0
 gray	0	0	0	0	0	0
-graz	0	0	0	0	0	0
 graze	0	0	0	0	0	0
 grazi	0	0	0	0	0	0
 grease	0	0	0	0	0	0
@@ -5990,8 +5800,6 @@ greatest	0	0	0	0	0	0
 greatly	0	0	0	0	0	0
 greatness	0	0	0	0	0	0
 greatnesse	0	0	0	0	0	0
-grecian	0	0	0	0	0	0
-gree	0	0	0	0	0	0
 greece	0	0	0	0	0	0
 greedily	0	0	0	0	0	0
 greediness	0	0	0	0	0	0
@@ -6018,10 +5826,8 @@ grief	0	0	0	0	0	0
 griefe	0	0	0	0	0	0
 griefes	0	0	0	0	0	0
 griefs	0	0	0	0	0	0
-griev	0	0	0	0	0	0
 grievance	0	0	0	0	0	0
 grieve	0	0	0	0	0	0
-grievous	0	0	0	0	0	0
 grievously	0	0	0	0	0	0
 grim	0	0	0	0	0	0
 grimace	0	0	0	0	0	0
@@ -6056,7 +5862,6 @@ gross	0	0	0	0	0	0
 grosse	0	0	0	0	0	0
 grossely	0	0	0	0	0	0
 grossly	0	0	0	0	0	0
-grossness	0	0	0	0	0	0
 grosvenor	0	0	0	0	0	0
 grotesque	0	0	0	0	0	0
 ground	0	0	0	0	0	0
@@ -6091,7 +5896,6 @@ grunt	0	0	0	0	0	0
 guard	0	0	0	0	0	0
 guardhouse	0	0	0	0	0	0
 guardianship	0	0	0	0	0	0
-gudgeon	0	0	0	0	0	0
 guess	0	0	0	0	0	0
 guest	0	0	0	0	0	0
 guidance	0	0	0	0	0	0
@@ -6102,7 +5906,6 @@ guild	0	0	0	0	0	0
 guildenstern	0	0	0	0	0	0
 guildensterne	0	0	0	0	0	0
 guile	0	0	0	0	0	0
-guiled	0	0	0	0	0	0
 guileless	0	0	0	0	0	0
 guillotine	0	0	0	0	0	0
 guilt	0	0	0	0	0	0
@@ -6149,7 +5952,6 @@ hack	0	0	0	0	0	0
 hackney	0	0	0	0	0	0
 hadst	0	0	0	0	0	0
 hag	0	0	0	0	0	0
-hagar	0	0	0	0	0	0
 haggard	0	0	0	0	0	0
 haggardness	0	0	0	0	0	0
 haggle	0	0	0	0	0	0
@@ -6238,7 +6040,6 @@ harlot	0	0	0	0	0	0
 harlotry	0	0	0	0	0	0
 harm	0	0	0	0	0	0
 harmless	0	0	0	0	0	0
-harmony	0	0	0	0	0	0
 harness	0	0	0	0	0	0
 harp	0	0	0	0	0	0
 harridan	0	0	0	0	0	0
@@ -6253,7 +6054,6 @@ hart	0	0	0	0	0	0
 harvest	0	0	0	0	0	0
 hast	0	0	0	0	0	0
 haste	0	0	0	0	0	0
-hasted	0	0	0	0	0	0
 hasten	0	0	0	0	0	0
 hastened	0	0	0	0	0	0
 hastie	0	0	0	0	0	0
@@ -6296,7 +6096,6 @@ hazel	0	0	0	0	0	0
 hazelnut	0	0	0	0	0	0
 head	0	0	0	0	0	0
 headache	0	0	0	0	0	0
-headed	0	0	0	0	0	0
 header	0	0	0	0	0	0
 headgear	0	0	0	0	0	0
 heading	0	0	0	0	0	0
@@ -6304,7 +6103,6 @@ headless	0	0	0	0	0	0
 headlong	0	0	0	0	0	0
 heads	0	0	0	0	0	0
 headstrong	0	0	0	0	0	0
-heal	0	0	0	0	0	0
 healer	0	0	0	0	0	0
 healing	0	0	0	0	0	0
 health	0	0	0	0	0	0
@@ -6359,7 +6157,6 @@ hebrew	0	0	0	0	0	0
 hecat	0	0	0	0	0	0
 hecticke	0	0	0	0	0	0
 hecuba	0	0	0	0	0	0
-hedg	0	0	0	0	0	0
 hedge	0	0	0	0	0	0
 hee	0	0	0	0	0	0
 heed	0	0	0	0	0	0
@@ -6378,9 +6175,7 @@ hees	0	0	0	0	0	0
 heigh	0	0	0	0	0	0
 height	0	0	0	0	0	0
 heighten	0	0	0	0	0	0
-heinous	0	0	0	0	0	0
 heir	0	0	0	0	0	0
-heiress	0	0	0	0	0	0
 helen	0	0	0	0	0	0
 helena	0	0	0	0	0	0
 hell	0	0	0	0	0	0
@@ -6407,19 +6202,16 @@ heraldrie	0	0	0	0	0	0
 heraldry	0	0	0	0	0	0
 herb	0	0	0	0	0	0
 herbe	0	0	0	0	0	0
-hercule	0	0	0	0	0	0
 hercules	0	0	0	0	0	0
 herd	0	0	0	0	0	0
 here	0	0	0	0	0	0
 hereabout	0	0	0	0	0	0
-hereaft	0	0	0	0	0	0
 hereafter	0	0	0	0	0	0
 herein	0	0	0	0	0	0
 heresy	0	0	0	0	0	0
 heretic	0	0	0	0	0	0
 heretofore	0	0	0	0	0	0
 hereupon	0	0	0	0	0	0
-hermit	0	0	0	0	0	0
 hermony	0	0	0	0	0	0
 hero	0	0	0	0	0	0
 herod	0	0	0	0	0	0
@@ -6479,7 +6271,6 @@ hit	0	0	0	0	0	0
 hitch	0	0	0	0	0	0
 hither	0	0	0	0	0	0
 hitherto	0	0	0	0	0	0
-hive	0	0	0	0	0	0
 ho	0	0	0	0	0	0
 hoa	0	0	0	0	0	0
 hoar	0	0	0	0	0	0
@@ -6493,7 +6284,6 @@ hobble	0	0	0	0	0	0
 hoboye	0	0	0	0	0	0
 hoby	0	0	0	0	0	0
 hockley	0	0	0	0	0	0
-hog	0	0	0	0	0	0
 hoist	0	0	0	0	0	0
 hoisting	0	0	0	0	0	0
 holborn	0	0	0	0	0	0
@@ -6511,7 +6301,6 @@ holiest	0	0	0	0	0	0
 holiness	0	0	0	0	0	0
 holla	0	0	0	0	0	0
 holler	0	0	0	0	0	0
-holloae	0	0	0	0	0	0
 hollow	0	0	0	0	0	0
 hollowness	0	0	0	0	0	0
 holly	0	0	0	0	0	0
@@ -6586,7 +6375,6 @@ horsehair	0	0	0	0	0	0
 horseman	0	0	0	0	0	0
 horson	0	0	0	0	0	0
 horsse	0	0	0	0	0	0
-hose	0	0	0	0	0	0
 hosi	0	0	0	0	0	0
 hospital	0	0	0	0	0	0
 host	0	0	0	0	0	0
@@ -6626,7 +6414,6 @@ however	0	0	0	0	0	0
 howl	0	0	0	0	0	0
 howsoeuer	0	0	0	0	0	0
 howsoever	0	0	0	0	0	0
-howsome	0	0	0	0	0	0
 hr	0	0	0	0	0	0
 htm	0	0	0	0	0	0
 html	0	0	0	0	0	0
@@ -6637,7 +6424,6 @@ hue	0	0	0	0	0	0
 hues	0	0	0	0	0	0
 hug	0	0	0	0	0	0
 huge	0	0	0	0	0	0
-hugg	0	0	0	0	0	0
 hugger	0	0	0	0	0	0
 hugh	0	0	0	0	0	0
 hulk	0	0	0	0	0	0
@@ -6649,7 +6435,6 @@ humanely	0	0	0	0	0	0
 humanising	0	0	0	0	0	0
 humanity	0	0	0	0	0	0
 humble	0	0	0	0	0	0
-humbleness	0	0	0	0	0	0
 humbler	0	0	0	0	0	0
 humbly	0	0	0	0	0	0
 humbug	0	0	0	0	0	0
@@ -6661,7 +6446,6 @@ humour	0	0	0	0	0	0
 humouredly	0	0	0	0	0	0
 humourous	0	0	0	0	0	0
 humourously	0	0	0	0	0	0
-humours	0	0	0	0	0	0
 hump	0	0	0	0	0	0
 humph	0	0	0	0	0	0
 hunchback	0	0	0	0	0	0
@@ -6685,7 +6469,6 @@ hurrying	0	0	0	0	0	0
 hurt	0	0	0	0	0	0
 husband	0	0	0	0	0	0
 husbandry	0	0	0	0	0	0
-husbands	0	0	0	0	0	0
 hush	0	0	0	0	0	0
 hushing	0	0	0	0	0	0
 husky	0	0	0	0	0	0
@@ -6804,7 +6587,6 @@ immortall	0	0	0	0	0	0
 immovable	0	0	0	0	0	0
 immoveable	0	0	0	0	0	0
 immunities	0	0	0	0	0	0
-immur	0	0	0	0	0	0
 imp	0	0	0	0	0	0
 impair	0	0	0	0	0	0
 impart	0	0	0	0	0	0
@@ -6899,7 +6681,6 @@ improved	0	0	0	0	0	0
 improvement	0	0	0	0	0	0
 impudence	0	0	0	0	0	0
 impudent	0	0	0	0	0	0
-impugn	0	0	0	0	0	0
 impulse	0	0	0	0	0	0
 impure	0	0	0	0	0	0
 impurity	0	0	0	0	0	0
@@ -6918,7 +6699,6 @@ inauspicious	0	0	0	0	0	0
 inc	0	0	0	0	0	0
 incapable	0	0	0	0	0	0
 incarceration	0	0	0	0	0	0
-incarnation	0	0	0	0	0	0
 incen	0	0	0	0	0	0
 incense	0	0	0	0	0	0
 incensed	0	0	0	0	0	0
@@ -6931,7 +6711,6 @@ incestuous	0	0	0	0	0	0
 inch	0	0	0	0	0	0
 incident	0	0	0	0	0	0
 incidental	0	0	0	0	0	0
-incision	0	0	0	0	0	0
 inclement	0	0	0	0	0	0
 inclin	0	0	0	0	0	0
 inclination	0	0	0	0	0	0
@@ -6974,7 +6753,6 @@ incumbent	0	0	0	0	0	0
 incumbrance	0	0	0	0	0	0
 incur	0	0	0	0	0	0
 incurable	0	0	0	0	0	0
-incurr	0	0	0	0	0	0
 indeauour	0	0	0	0	0	0
 indebte	0	0	0	0	0	0
 indecision	0	0	0	0	0	0
@@ -6991,8 +6769,6 @@ independence	0	0	0	0	0	0
 independent	0	0	0	0	0	0
 indescribable	0	0	0	0	0	0
 index	0	0	0	0	0	0
-india	0	0	0	0	0	0
-indian	0	0	0	0	0	0
 indicate	0	0	0	0	0	0
 indication	0	0	0	0	0	0
 indict	0	0	0	0	0	0
@@ -7037,7 +6813,6 @@ inestimable	0	0	0	0	0	0
 inevitable	0	0	0	0	0	0
 inevitably	0	0	0	0	0	0
 inexcusable	0	0	0	0	0	0
-inexecrable	0	0	0	0	0	0
 inexhaustible	0	0	0	0	0	0
 inexorable	0	0	0	0	0	0
 inexperienced	0	0	0	0	0	0
@@ -7059,7 +6834,6 @@ inference	0	0	0	0	0	0
 inferior	0	0	0	0	0	0
 inferiority	0	0	0	0	0	0
 infernal	0	0	0	0	0	0
-infidel	0	0	0	0	0	0
 infinite	0	0	0	0	0	0
 infinitely	0	0	0	0	0	0
 infirmary	0	0	0	0	0	0
@@ -7082,7 +6856,6 @@ informer	0	0	0	0	0	0
 infraction	0	0	0	0	0	0
 infringement	0	0	0	0	0	0
 infuriate	0	0	0	0	0	0
-infus	0	0	0	0	0	0
 infuse	0	0	0	0	0	0
 ing	0	0	0	0	0	0
 ingag	0	0	0	0	0	0
@@ -7113,7 +6886,6 @@ inkstand	0	0	0	0	0	0
 inky	0	0	0	0	0	0
 inland	0	0	0	0	0	0
 inlarg	0	0	0	0	0	0
-inlay	0	0	0	0	0	0
 inlet	0	0	0	0	0	0
 inline	0	0	0	0	0	0
 inmate	0	0	0	0	0	0
@@ -7141,10 +6913,8 @@ inquisitively	0	0	0	0	0	0
 insatiate	0	0	0	0	0	0
 inscribe	0	0	0	0	0	0
 inscription	0	0	0	0	0	0
-inscroll	0	0	0	0	0	0
 inscrutability	0	0	0	0	0	0
 inscrutable	0	0	0	0	0	0
-insculp	0	0	0	0	0	0
 insect	0	0	0	0	0	0
 insecure	0	0	0	0	0	0
 insensate	0	0	0	0	0	0
@@ -7188,7 +6958,6 @@ insufficient	0	0	0	0	0	0
 insult	0	0	0	0	0	0
 insulter	0	0	0	0	0	0
 insupportable	0	0	0	0	0	0
-int	0	0	0	0	0	0
 intangible	0	0	0	0	0	0
 integrity	0	0	0	0	0	0
 intellectual	0	0	0	0	0	0
@@ -7207,7 +6976,6 @@ intently	0	0	0	0	0	0
 inter	0	0	0	0	0	0
 intercede	0	0	0	0	0	0
 intercession	0	0	0	0	0	0
-intercessor	0	0	0	0	0	0
 interchange	0	0	0	0	0	0
 intercourse	0	0	0	0	0	0
 interduce	0	0	0	0	0	0
@@ -7230,7 +6998,6 @@ international	0	0	0	0	0	0
 internet	0	0	0	0	0	0
 interpose	0	0	0	0	0	0
 interposed	0	0	0	0	0	0
-interposer	0	0	0	0	0	0
 interposing	0	0	0	0	0	0
 interpret	0	0	0	0	0	0
 interpreter	0	0	0	0	0	0
@@ -7359,7 +7126,6 @@ issue	0	0	0	0	0	0
 ist	0	0	0	0	0	0
 istwentus	0	0	0	0	0	0
 italian	0	0	0	0	0	0
-italic	0	0	0	0	0	0
 italy	0	0	0	0	0	0
 itch	0	0	0	0	0	0
 item	0	0	0	0	0	0
@@ -7375,7 +7141,6 @@ iustice	0	0	0	0	0	0
 iustly	0	0	0	0	0	0
 iuyce	0	0	0	0	0	0
 iv	0	0	0	0	0	0
-ivory	0	0	0	0	0	0
 ivy	0	0	0	0	0	0
 ix	0	0	0	0	0	0
 izaak	0	0	0	0	0	0
@@ -7401,13 +7166,11 @@ james	0	0	0	0	0	0
 janet	0	0	0	0	0	0
 jangle	0	0	0	0	0	0
 january	0	0	0	0	0	0
-janus	0	0	0	0	0	0
 japan	0	0	0	0	0	0
 jar	0	0	0	0	0	0
 jargon	0	0	0	0	0	0
 jarring	0	0	0	0	0	0
 jarvis	0	0	0	0	0	0
-jason	0	0	0	0	0	0
 jaunce	0	0	0	0	0	0
 jaundice	0	0	0	0	0	0
 jaw	0	0	0	0	0	0
@@ -7425,7 +7188,6 @@ jerk	0	0	0	0	0	0
 jerked	0	0	0	0	0	0
 jerry	0	0	0	0	0	0
 jessamine	0	0	0	0	0	0
-jessica	0	0	0	0	0	0
 jest	0	0	0	0	0	0
 jesting	0	0	0	0	0	0
 jesu	0	0	0	0	0	0
@@ -7433,9 +7195,6 @@ jet	0	0	0	0	0	0
 jew	0	0	0	0	0	0
 jewel	0	0	0	0	0	0
 jewellery	0	0	0	0	0	0
-jewess	0	0	0	0	0	0
-jewish	0	0	0	0	0	0
-jews	0	0	0	0	0	0
 jezebels	0	0	0	0	0	0
 jiffy	0	0	0	0	0	0
 jingle	0	0	0	0	0	0
@@ -7466,7 +7225,6 @@ jolt	0	0	0	0	0	0
 jorum	0	0	0	0	0	0
 jostle	0	0	0	0	0	0
 jostlement	0	0	0	0	0	0
-jot	0	0	0	0	0	0
 jour	0	0	0	0	0	0
 journal	0	0	0	0	0	0
 journey	0	0	0	0	0	0
@@ -7575,7 +7333,6 @@ kite	0	0	0	0	0	0
 kith	0	0	0	0	0	0
 kitten	0	0	0	0	0	0
 knack	0	0	0	0	0	0
-knap	0	0	0	0	0	0
 knaue	0	0	0	0	0	0
 knauery	0	0	0	0	0	0
 knauish	0	0	0	0	0	0
@@ -7616,7 +7373,6 @@ knuckle	0	0	0	0	0	0
 kramer	0	0	0	0	0	0
 l	0	0	0	0	0	0
 la	0	0	0	0	0	0
-laban	0	0	0	0	0	0
 label	0	0	0	0	0	0
 laboriously	0	0	0	0	0	0
 labour	0	0	0	0	0	0
@@ -7634,7 +7390,6 @@ lad	0	0	0	0	0	0
 ladder	0	0	0	0	0	0
 laden	0	0	0	0	0	0
 ladie	0	0	0	0	0	0
-lading	0	0	0	0	0	0
 ladiship	0	0	0	0	0	0
 ladle	0	0	0	0	0	0
 lady	0	0	0	0	0	0
@@ -7710,12 +7465,10 @@ lattice	0	0	0	0	0	0
 laudable	0	0	0	0	0	0
 laudanum	0	0	0	0	0	0
 laugh	0	0	0	0	0	0
-laughable	0	0	0	0	0	0
 laughing	0	0	0	0	0	0
 laughingly	0	0	0	0	0	0
 laughter	0	0	0	0	0	0
 lauk	0	0	0	0	0	0
-launcelet	0	0	0	0	0	0
 launch	0	0	0	0	0	0
 laundress	0	0	0	0	0	0
 laur	0	0	0	0	0	0
@@ -7727,7 +7480,6 @@ lavish	0	0	0	0	0	0
 law	0	0	0	0	0	0
 lawe	0	0	0	0	0	0
 lawful	0	0	0	0	0	0
-lawfully	0	0	0	0	0	0
 lawless	0	0	0	0	0	0
 lawlesse	0	0	0	0	0	0
 lawn	0	0	0	0	0	0
@@ -7738,7 +7490,6 @@ layes	0	0	0	0	0	0
 lazar	0	0	0	0	0	0
 lazy	0	0	0	0	0	0
 lazybone	0	0	0	0	0	0
-le	0	0	0	0	0	0
 lead	0	0	0	0	0	0
 leade	0	0	0	0	0	0
 leaden	0	0	0	0	0	0
@@ -7746,7 +7497,6 @@ leader	0	0	0	0	0	0
 leaf	0	0	0	0	0	0
 leafless	0	0	0	0	0	0
 league	0	0	0	0	0	0
-leah	0	0	0	0	0	0
 leaky	0	0	0	0	0	0
 lean	0	0	0	0	0	0
 leane	0	0	0	0	0	0
@@ -7754,10 +7504,8 @@ leaning	0	0	0	0	0	0
 leant	0	0	0	0	0	0
 leap	0	0	0	0	0	0
 leaperous	0	0	0	0	0	0
-leaps	0	0	0	0	0	0
 leapt	0	0	0	0	0	0
 learn	0	0	0	0	0	0
-learning	0	0	0	0	0	0
 learnt	0	0	0	0	0	0
 least	0	0	0	0	0	0
 leastway	0	0	0	0	0	0
@@ -7805,7 +7553,6 @@ lenity	0	0	0	0	0	0
 lent	0	0	0	0	0	0
 lenten	0	0	0	0	0	0
 lenton	0	0	0	0	0	0
-leonardo	0	0	0	0	0	0
 leonora	0	0	0	0	0	0
 leprosy	0	0	0	0	0	0
 less	0	0	0	0	0	0
@@ -7826,7 +7573,6 @@ leuie	0	0	0	0	0	0
 leuies	0	0	0	0	0	0
 level	0	0	0	0	0	0
 levity	0	0	0	0	0	0
-lewd	0	0	0	0	0	0
 lewdnesse	0	0	0	0	0	0
 lewis	0	0	0	0	0	0
 leysure	0	0	0	0	0	0
@@ -7844,7 +7590,6 @@ libertine	0	0	0	0	0	0
 liberty	0	0	0	0	0	0
 library	0	0	0	0	0	0
 license	0	0	0	0	0	0
-licha	0	0	0	0	0	0
 lick	0	0	0	0	0	0
 lid	0	0	0	0	0	0
 lie	0	0	0	0	0	0
@@ -7883,7 +7628,6 @@ likely	0	0	0	0	0	0
 likeness	0	0	0	0	0	0
 likenesse	0	0	0	0	0	0
 likes	0	0	0	0	0	0
-likest	0	0	0	0	0	0
 likewise	0	0	0	0	0	0
 liking	0	0	0	0	0	0
 limb	0	0	0	0	0	0
@@ -7913,7 +7657,6 @@ lipps	0	0	0	0	0	0
 lips	0	0	0	0	0	0
 liquid	0	0	0	0	0	0
 liquor	0	0	0	0	0	0
-lisbon	0	0	0	0	0	0
 lispe	0	0	0	0	0	0
 lisping	0	0	0	0	0	0
 list	0	0	0	0	0	0
@@ -7954,7 +7697,6 @@ loadstone	0	0	0	0	0	0
 loaf	0	0	0	0	0	0
 loath	0	0	0	0	0	0
 loathe	0	0	0	0	0	0
-loathing	0	0	0	0	0	0
 loathsome	0	0	0	0	0	0
 lobby	0	0	0	0	0	0
 lobster	0	0	0	0	0	0
@@ -8019,15 +7761,12 @@ lor	0	0	0	0	0	0
 lord	0	0	0	0	0	0
 lords	0	0	0	0	0	0
 lordship	0	0	0	0	0	0
-lorenzo	0	0	0	0	0	0
 lorry	0	0	0	0	0	0
 losberne	0	0	0	0	0	0
 lose	0	0	0	0	0	0
-loser	0	0	0	0	0	0
 loss	0	0	0	0	0	0
 losse	0	0	0	0	0	0
 lot	0	0	0	0	0	0
-lott	0	0	0	0	0	0
 lotte	0	0	0	0	0	0
 lottery	0	0	0	0	0	0
 lou	0	0	0	0	0	0
@@ -8133,8 +7872,6 @@ magnanimous	0	0	0	0	0	0
 magnanimously	0	0	0	0	0	0
 magnificent	0	0	0	0	0	0
 magnificently	0	0	0	0	0	0
-magnificoe	0	0	0	0	0	0
-magnificoes	0	0	0	0	0	0
 magnitude	0	0	0	0	0	0
 magnus	0	0	0	0	0	0
 magot	0	0	0	0	0	0
@@ -8163,7 +7900,6 @@ majestically	0	0	0	0	0	0
 majesty	0	0	0	0	0	0
 major	0	0	0	0	0	0
 majority	0	0	0	0	0	0
-mak	0	0	0	0	0	0
 make	0	0	0	0	0	0
 maker	0	0	0	0	0	0
 makes	0	0	0	0	0	0
@@ -8205,11 +7941,9 @@ manifold	0	0	0	0	0	0
 mankind	0	0	0	0	0	0
 manly	0	0	0	0	0	0
 mann	0	0	0	0	0	0
-manna	0	0	0	0	0	0
 manner	0	0	0	0	0	0
 mannered	0	0	0	0	0	0
 mannerly	0	0	0	0	0	0
-manners	0	0	0	0	0	0
 mans	0	0	0	0	0	0
 mansion	0	0	0	0	0	0
 manslaughter	0	0	0	0	0	0
@@ -8233,7 +7967,6 @@ marching	0	0	0	0	0	0
 marchpane	0	0	0	0	0	0
 mare	0	0	0	0	0	0
 margent	0	0	0	0	0	0
-margery	0	0	0	0	0	0
 margin	0	0	0	0	0	0
 maria	0	0	0	0	0	0
 marine	0	0	0	0	0	0
@@ -8262,7 +7995,6 @@ martial	0	0	0	0	0	0
 martiall	0	0	0	0	0	0
 martin	0	0	0	0	0	0
 martino	0	0	0	0	0	0
-martlet	0	0	0	0	0	0
 martyr	0	0	0	0	0	0
 maruel	0	0	0	0	0	0
 maruell	0	0	0	0	0	0
@@ -8275,8 +8007,6 @@ mask	0	0	0	0	0	0
 masker	0	0	0	0	0	0
 mason	0	0	0	0	0	0
 masque	0	0	0	0	0	0
-masquer	0	0	0	0	0	0
-masquing	0	0	0	0	0	0
 mass	0	0	0	0	0	0
 massacre	0	0	0	0	0	0
 masse	0	0	0	0	0	0
@@ -8347,7 +8077,6 @@ mechanical	0	0	0	0	0	0
 mechanically	0	0	0	0	0	0
 meddle	0	0	0	0	0	0
 meddlesome	0	0	0	0	0	0
-medea	0	0	0	0	0	0
 mediately	0	0	0	0	0	0
 mediation	0	0	0	0	0	0
 medical	0	0	0	0	0	0
@@ -8428,7 +8157,6 @@ merrily	0	0	0	0	0	0
 merriment	0	0	0	0	0	0
 merry	0	0	0	0	0	0
 mes	0	0	0	0	0	0
-mesh	0	0	0	0	0	0
 message	0	0	0	0	0	0
 messe	0	0	0	0	0	0
 messenger	0	0	0	0	0	0
@@ -8443,14 +8171,12 @@ methink	0	0	0	0	0	0
 method	0	0	0	0	0	0
 methodical	0	0	0	0	0	0
 methodically	0	0	0	0	0	0
-methought	0	0	0	0	0	0
 metle	0	0	0	0	0	0
 metropolis	0	0	0	0	0	0
 metropolitan	0	0	0	0	0	0
 mettel	0	0	0	0	0	0
 mettle	0	0	0	0	0	0
 mew	0	0	0	0	0	0
-mexico	0	0	0	0	0	0
 mget	0	0	0	0	0	0
 mi	0	0	0	0	0	0
 michael	0	0	0	0	0	0
@@ -8458,7 +8184,6 @@ michaelma	0	0	0	0	0	0
 miche	0	0	0	0	0	0
 mickle	0	0	0	0	0	0
 mid	0	0	0	0	0	0
-midas	0	0	0	0	0	0
 midday	0	0	0	0	0	0
 middle	0	0	0	0	0	0
 middlesex	0	0	0	0	0	0
@@ -8467,7 +8192,6 @@ midst	0	0	0	0	0	0
 midwife	0	0	0	0	0	0
 midwifery	0	0	0	0	0	0
 might	0	0	0	0	0	0
-mightiest	0	0	0	0	0	0
 mightily	0	0	0	0	0	0
 mightst	0	0	0	0	0	0
 mighty	0	0	0	0	0	0
@@ -8532,28 +8256,23 @@ misadventure	0	0	0	0	0	0
 misanthropic	0	0	0	0	0	0
 misapply	0	0	0	0	0	0
 misbehav	0	0	0	0	0	0
-misbeliever	0	0	0	0	0	0
-miscarried	0	0	0	0	0	0
 miscarry	0	0	0	0	0	0
 miscellaneous	0	0	0	0	0	0
 mischance	0	0	0	0	0	0
 mischeefe	0	0	0	0	0	0
 mischief	0	0	0	0	0	0
-misconst	0	0	0	0	0	0
 miscreant	0	0	0	0	0	0
 misdirect	0	0	0	0	0	0
 misdoubte	0	0	0	0	0	0
 miser	0	0	0	0	0	0
 miserable	0	0	0	0	0	0
 miserably	0	0	0	0	0	0
-miseries	0	0	0	0	0	0
 misery	0	0	0	0	0	0
 misfortune	0	0	0	0	0	0
 misfortunes	0	0	0	0	0	0
 misgive	0	0	0	0	0	0
 misgiving	0	0	0	0	0	0
 mislaying	0	0	0	0	0	0
-mislike	0	0	0	0	0	0
 mismanagement	0	0	0	0	0	0
 miss	0	0	0	0	0	0
 misshapen	0	0	0	0	0	0
@@ -8581,7 +8300,6 @@ mistrust	0	0	0	0	0	0
 mistrustful	0	0	0	0	0	0
 misty	0	0	0	0	0	0
 misuse	0	0	0	0	0	0
-mitigate	0	0	0	0	0	0
 mix	0	0	0	0	0	0
 mixed	0	0	0	0	0	0
 mixture	0	0	0	0	0	0
@@ -8607,7 +8325,6 @@ modicum	0	0	0	0	0	0
 modification	0	0	0	0	0	0
 modify	0	0	0	0	0	0
 moe	0	0	0	0	0	0
-moiety	0	0	0	0	0	0
 moist	0	0	0	0	0	0
 moister	0	0	0	0	0	0
 moisture	0	0	0	0	0	0
@@ -8622,13 +8339,11 @@ momentous	0	0	0	0	0	0
 mon	0	0	0	0	0	0
 monarch	0	0	0	0	0	0
 monarchs	0	0	0	0	0	0
-monastery	0	0	0	0	0	0
 monday	0	0	0	0	0	0
 monde	0	0	0	0	0	0
 mone	0	0	0	0	0	0
 moneth	0	0	0	0	0	0
 money	0	0	0	0	0	0
-mong	0	0	0	0	0	0
 monger	0	0	0	0	0	0
 mongrel	0	0	0	0	0	0
 monk	0	0	0	0	0	0
@@ -8642,7 +8357,6 @@ monster	0	0	0	0	0	0
 monstrous	0	0	0	0	0	0
 monstrously	0	0	0	0	0	0
 montague	0	0	0	0	0	0
-montferrat	0	0	0	0	0	0
 month	0	0	0	0	0	0
 monthe	0	0	0	0	0	0
 monthly	0	0	0	0	0	0
@@ -8669,7 +8383,6 @@ morn	0	0	0	0	0	0
 morne	0	0	0	0	0	0
 mornin	0	0	0	0	0	0
 morning	0	0	0	0	0	0
-morocco	0	0	0	0	0	0
 morose	0	0	0	0	0	0
 moroseness	0	0	0	0	0	0
 morrice	0	0	0	0	0	0
@@ -8683,13 +8396,11 @@ mortally	0	0	0	0	0	0
 mortar	0	0	0	0	0	0
 mortgage	0	0	0	0	0	0
 mortification	0	0	0	0	0	0
-mortifying	0	0	0	0	0	0
 mortiz	0	0	0	0	0	0
 moss	0	0	0	0	0	0
 mossy	0	0	0	0	0	0
 mostly	0	0	0	0	0	0
 mote	0	0	0	0	0	0
-moth	0	0	0	0	0	0
 mother	0	0	0	0	0	0
 motherly	0	0	0	0	0	0
 motion	0	0	0	0	0	0
@@ -8739,7 +8450,6 @@ muffled	0	0	0	0	0	0
 muffler	0	0	0	0	0	0
 mug	0	0	0	0	0	0
 mugger	0	0	0	0	0	0
-mule	0	0	0	0	0	0
 mull	0	0	0	0	0	0
 multifarious	0	0	0	0	0	0
 multiple	0	0	0	0	0	0
@@ -8844,9 +8554,7 @@ naught	0	0	0	0	0	0
 naughty	0	0	0	0	0	0
 naval	0	0	0	0	0	0
 nay	0	0	0	0	0	0
-nazarite	0	0	0	0	0	0
 ne	0	0	0	0	0	0
-neapolitan	0	0	0	0	0	0
 near	0	0	0	0	0	0
 nearer	0	0	0	0	0	0
 nearest	0	0	0	0	0	0
@@ -8882,13 +8590,11 @@ negligent	0	0	0	0	0	0
 negligently	0	0	0	0	0	0
 negro	0	0	0	0	0	0
 negus	0	0	0	0	0	0
-neigh	0	0	0	0	0	0
 neighbor	0	0	0	0	0	0
 neighborhood	0	0	0	0	0	0
 neighbour	0	0	0	0	0	0
 neighbourhood	0	0	0	0	0	0
 neighbouring	0	0	0	0	0	0
-neighbourly	0	0	0	0	0	0
 neighbours	0	0	0	0	0	0
 neither	0	0	0	0	0	0
 nell	0	0	0	0	0	0
@@ -8897,7 +8603,6 @@ nephew	0	0	0	0	0	0
 nephewe	0	0	0	0	0	0
 neptune	0	0	0	0	0	0
 nere	0	0	0	0	0	0
-nerissa	0	0	0	0	0	0
 nero	0	0	0	0	0	0
 nerue	0	0	0	0	0	0
 nerve	0	0	0	0	0	0
@@ -8906,7 +8611,6 @@ nervously	0	0	0	0	0	0
 nervousness	0	0	0	0	0	0
 nest	0	0	0	0	0	0
 nestled	0	0	0	0	0	0
-nestor	0	0	0	0	0	0
 net	0	0	0	0	0	0
 nether	0	0	0	0	0	0
 nettle	0	0	0	0	0	0
@@ -8953,7 +8657,6 @@ nine	0	0	0	0	0	0
 ninepence	0	0	0	0	0	0
 nineteen	0	0	0	0	0	0
 ninety	0	0	0	0	0	0
-ning	0	0	0	0	0	0
 ninth	0	0	0	0	0	0
 niobe	0	0	0	0	0	0
 nip	0	0	0	0	0	0
@@ -8971,7 +8674,6 @@ nobody	0	0	0	0	0	0
 nocturnal	0	0	0	0	0	0
 nod	0	0	0	0	0	0
 nodded	0	0	0	0	0	0
-noindent	0	0	0	0	0	0
 noise	0	0	0	0	0	0
 noiseless	0	0	0	0	0	0
 noisily	0	0	0	0	0	0
@@ -8979,7 +8681,6 @@ noisome	0	0	0	0	0	0
 noisy	0	0	0	0	0	0
 nolly	0	0	0	0	0	0
 nominally	0	0	0	0	0	0
-nominate	0	0	0	0	0	0
 non	0	0	0	0	0	0
 nonce	0	0	0	0	0	0
 none	0	0	0	0	0	0
@@ -9010,7 +8711,6 @@ nostril	0	0	0	0	0	0
 not	0	0	0	0	0	0
 notability	0	0	0	0	0	0
 notable	0	0	0	0	0	0
-notary	0	0	0	0	0	0
 note	0	0	0	0	0	0
 nothing	0	0	0	0	0	0
 nothink	0	0	0	0	0	0
@@ -9025,7 +8725,6 @@ notoriety	0	0	0	0	0	0
 notorious	0	0	0	0	0	0
 notre	0	0	0	0	0	0
 notwithstanding	0	0	0	0	0	0
-nought	0	0	0	0	0	0
 noun	0	0	0	0	0	0
 nourish	0	0	0	0	0	0
 nourishment	0	0	0	0	0	0
@@ -9231,9 +8930,7 @@ oppressor	0	0	0	0	0	0
 opprest	0	0	0	0	0	0
 opprobrious	0	0	0	0	0	0
 opulence	0	0	0	0	0	0
-oracle	0	0	0	0	0	0
 orange	0	0	0	0	0	0
-oration	0	0	0	0	0	0
 orator	0	0	0	0	0	0
 oratorical	0	0	0	0	0	0
 orb	0	0	0	0	0	0
@@ -9257,7 +8954,6 @@ organ	0	0	0	0	0	0
 organe	0	0	0	0	0	0
 organisation	0	0	0	0	0	0
 organize	0	0	0	0	0	0
-organs	0	0	0	0	0	0
 orgy	0	0	0	0	0	0
 origin	0	0	0	0	0	0
 original	0	0	0	0	0	0
@@ -9271,7 +8967,6 @@ orleans	0	0	0	0	0	0
 ornament	0	0	0	0	0	0
 ornamental	0	0	0	0	0	0
 orphan	0	0	0	0	0	0
-orpheus	0	0	0	0	0	0
 orson	0	0	0	0	0	0
 orth	0	0	0	0	0	0
 orthodoxy	0	0	0	0	0	0
@@ -9280,7 +8975,6 @@ osr	0	0	0	0	0	0
 osricke	0	0	0	0	0	0
 ossa	0	0	0	0	0	0
 ostensible	0	0	0	0	0	0
-ostent	0	0	0	0	0	0
 ostentation	0	0	0	0	0	0
 ostentatious	0	0	0	0	0	0
 ostentatiously	0	0	0	0	0	0
@@ -9298,10 +8992,8 @@ ought	0	0	0	0	0	0
 ould	0	0	0	0	0	0
 ounce	0	0	0	0	0	0
 ouse	0	0	0	0	0	0
-outbrave	0	0	0	0	0	0
 outbreak	0	0	0	0	0	0
 outcast	0	0	0	0	0	0
-outcries	0	0	0	0	0	0
 outcry	0	0	0	0	0	0
 outdated	0	0	0	0	0	0
 outdone	0	0	0	0	0	0
@@ -9328,7 +9020,6 @@ outstanding	0	0	0	0	0	0
 outstretche	0	0	0	0	0	0
 outstretched	0	0	0	0	0	0
 outstrip	0	0	0	0	0	0
-outswear	0	0	0	0	0	0
 outward	0	0	0	0	0	0
 outwardly	0	0	0	0	0	0
 outwatche	0	0	0	0	0	0
@@ -9358,7 +9049,6 @@ overlay	0	0	0	0	0	0
 overload	0	0	0	0	0	0
 overlook	0	0	0	0	0	0
 overmuch	0	0	0	0	0	0
-overpeer	0	0	0	0	0	0
 overpower	0	0	0	0	0	0
 overpowered	0	0	0	0	0	0
 overrated	0	0	0	0	0	0
@@ -9410,7 +9100,6 @@ paddock	0	0	0	0	0	0
 paddocke	0	0	0	0	0	0
 padle	0	0	0	0	0	0
 padlock	0	0	0	0	0	0
-padua	0	0	0	0	0	0
 pagan	0	0	0	0	0	0
 page	0	0	0	0	0	0
 pageant	0	0	0	0	0	0
@@ -9429,11 +9118,8 @@ paire	0	0	0	0	0	0
 pal	0	0	0	0	0	0
 palace	0	0	0	0	0	0
 palaces	0	0	0	0	0	0
-palate	0	0	0	0	0	0
-palatine	0	0	0	0	0	0
 pale	0	0	0	0	0	0
 paleness	0	0	0	0	0	0
-palenness	0	0	0	0	0	0
 paler	0	0	0	0	0	0
 palest	0	0	0	0	0	0
 paling	0	0	0	0	0	0
@@ -9558,7 +9244,6 @@ pat	0	0	0	0	0	0
 patch	0	0	0	0	0	0
 patchwork	0	0	0	0	0	0
 pate	0	0	0	0	0	0
-paten	0	0	0	0	0	0
 patent	0	0	0	0	0	0
 path	0	0	0	0	0	0
 pathetic	0	0	0	0	0	0
@@ -9637,7 +9322,6 @@ peeuish	0	0	0	0	0	0
 peevish	0	0	0	0	0	0
 peg	0	0	0	0	0	0
 peggy	0	0	0	0	0	0
-peise	0	0	0	0	0	0
 pelion	0	0	0	0	0	0
 pell	0	0	0	0	0	0
 pelt	0	0	0	0	0	0
@@ -9723,7 +9407,6 @@ perseuer	0	0	0	0	0	0
 perseverance	0	0	0	0	0	0
 persevere	0	0	0	0	0	0
 perseveringly	0	0	0	0	0	0
-persian	0	0	0	0	0	0
 persist	0	0	0	0	0	0
 persisted	0	0	0	0	0	0
 persistent	0	0	0	0	0	0
@@ -9734,7 +9417,6 @@ personal	0	0	0	0	0	0
 personality	0	0	0	0	0	0
 personall	0	0	0	0	0	0
 personally	0	0	0	0	0	0
-personã	0	0	0	0	0	0
 perspective	0	0	0	0	0	0
 perspiration	0	0	0	0	0	0
 persuade	0	0	0	0	0	0
@@ -9743,7 +9425,6 @@ persuader	0	0	0	0	0	0
 persuasion	0	0	0	0	0	0
 persuasively	0	0	0	0	0	0
 perswade	0	0	0	0	0	0
-pertain	0	0	0	0	0	0
 perturb	0	0	0	0	0	0
 perturbation	0	0	0	0	0	0
 perusal	0	0	0	0	0	0
@@ -9804,7 +9485,6 @@ physical	0	0	0	0	0	0
 physically	0	0	0	0	0	0
 physician	0	0	0	0	0	0
 physicke	0	0	0	0	0	0
-phå	0	0	0	0	0	0
 piano	0	0	0	0	0	0
 pick	0	0	0	0	0	0
 pickaxe	0	0	0	0	0	0
@@ -9858,7 +9538,6 @@ pious	0	0	0	0	0	0
 piously	0	0	0	0	0	0
 pipe	0	0	0	0	0	0
 piping	0	0	0	0	0	0
-pirate	0	0	0	0	0	0
 piscatory	0	0	0	0	0	0
 pistol	0	0	0	0	0	0
 pit	0	0	0	0	0	0
@@ -9931,7 +9610,6 @@ pleasantly	0	0	0	0	0	0
 pleasantry	0	0	0	0	0	0
 please	0	0	0	0	0	0
 pleased	0	0	0	0	0	0
-pleaseth	0	0	0	0	0	0
 pleasing	0	0	0	0	0	0
 pleasurable	0	0	0	0	0	0
 pleasure	0	0	0	0	0	0
@@ -10049,7 +9727,6 @@ population	0	0	0	0	0	0
 porch	0	0	0	0	0	0
 porche	0	0	0	0	0	0
 pore	0	0	0	0	0	0
-pork	0	0	0	0	0	0
 porkman	0	0	0	0	0	0
 porochial	0	0	0	0	0	0
 porochially	0	0	0	0	0	0
@@ -10064,7 +9741,6 @@ portentously	0	0	0	0	0	0
 porter	0	0	0	0	0	0
 porterage	0	0	0	0	0	0
 porth	0	0	0	0	0	0
-portia	0	0	0	0	0	0
 portico	0	0	0	0	0	0
 portion	0	0	0	0	0	0
 portionless	0	0	0	0	0	0
@@ -10096,7 +9772,6 @@ postmaster	0	0	0	0	0	0
 postpone	0	0	0	0	0	0
 postscript	0	0	0	0	0	0
 posture	0	0	0	0	0	0
-posy	0	0	0	0	0	0
 pot	0	0	0	0	0	0
 potato	0	0	0	0	0	0
 potent	0	0	0	0	0	0
@@ -10174,8 +9849,6 @@ predominant	0	0	0	0	0	0
 predominate	0	0	0	0	0	0
 preface	0	0	0	0	0	0
 prefer	0	0	0	0	0	0
-preferment	0	0	0	0	0	0
-preferr	0	0	0	0	0	0
 preferred	0	0	0	0	0	0
 prefix	0	0	0	0	0	0
 pregnant	0	0	0	0	0	0
@@ -10219,7 +9892,6 @@ president	0	0	0	0	0	0
 press	0	0	0	0	0	0
 pressed	0	0	0	0	0	0
 pressure	0	0	0	0	0	0
-prest	0	0	0	0	0	0
 presume	0	0	0	0	0	0
 presuming	0	0	0	0	0	0
 presumption	0	0	0	0	0	0
@@ -10301,9 +9973,7 @@ procession	0	0	0	0	0	0
 processor	0	0	0	0	0	0
 proclaim	0	0	0	0	0	0
 proclaime	0	0	0	0	0	0
-proclamation	0	0	0	0	0	0
 procure	0	0	0	0	0	0
-prodigal	0	0	0	0	0	0
 prodigall	0	0	0	0	0	0
 prodigious	0	0	0	0	0	0
 prodigiously	0	0	0	0	0	0
@@ -10433,7 +10103,6 @@ prouide	0	0	0	0	0	0
 prouidence	0	0	0	0	0	0
 prouinciall	0	0	0	0	0	0
 prouoke	0	0	0	0	0	0
-prov	0	0	0	0	0	0
 prove	0	0	0	0	0	0
 provender	0	0	0	0	0	0
 proverb	0	0	0	0	0	0
@@ -10492,11 +10161,9 @@ punishment	0	0	0	0	0	0
 punisht	0	0	0	0	0	0
 punitive	0	0	0	0	0	0
 punto	0	0	0	0	0	0
-puny	0	0	0	0	0	0
 pupil	0	0	0	0	0	0
 puppet	0	0	0	0	0	0
 purblind	0	0	0	0	0	0
-purchas	0	0	0	0	0	0
 purchase	0	0	0	0	0	0
 pure	0	0	0	0	0	0
 purely	0	0	0	0	0	0
@@ -10534,7 +10201,6 @@ pyramid	0	0	0	0	0	0
 pyrate	0	0	0	0	0	0
 pyrrhu	0	0	0	0	0	0
 pyrrhus	0	0	0	0	0	0
-pythagora	0	0	0	0	0	0
 qu	0	0	0	0	0	0
 quack	0	0	0	0	0	0
 quail	0	0	0	0	0	0
@@ -10574,7 +10240,6 @@ quest	0	0	0	0	0	0
 question	0	0	0	0	0	0
 questionable	0	0	0	0	0	0
 questioner	0	0	0	0	0	0
-questionless	0	0	0	0	0	0
 quick	0	0	0	0	0	0
 quicke	0	0	0	0	0	0
 quicken	0	0	0	0	0	0
@@ -10586,7 +10251,6 @@ quiddit	0	0	0	0	0	0
 quiet	0	0	0	0	0	0
 quieter	0	0	0	0	0	0
 quietly	0	0	0	0	0	0
-quietness	0	0	0	0	0	0
 quietude	0	0	0	0	0	0
 quietus	0	0	0	0	0	0
 quil	0	0	0	0	0	0
@@ -10595,7 +10259,6 @@ quille	0	0	0	0	0	0
 quillet	0	0	0	0	0	0
 quince	0	0	0	0	0	0
 quintessence	0	0	0	0	0	0
-quire	0	0	0	0	0	0
 quit	0	0	0	0	0	0
 quite	0	0	0	0	0	0
 quiver	0	0	0	0	0	0
@@ -10636,13 +10299,11 @@ rake	0	0	0	0	0	0
 rakishly	0	0	0	0	0	0
 ral	0	0	0	0	0	0
 rally	0	0	0	0	0	0
-ram	0	0	0	0	0	0
 ramble	0	0	0	0	0	0
 rampacious	0	0	0	0	0	0
 rampant	0	0	0	0	0	0
 rampart	0	0	0	0	0	0
 ran	0	0	0	0	0	0
-rance	0	0	0	0	0	0
 ranck	0	0	0	0	0	0
 rancour	0	0	0	0	0	0
 random	0	0	0	0	0	0
@@ -10673,7 +10334,6 @@ rascal	0	0	0	0	0	0
 rascall	0	0	0	0	0	0
 rascally	0	0	0	0	0	0
 rash	0	0	0	0	0	0
-rasher	0	0	0	0	0	0
 rashly	0	0	0	0	0	0
 rashness	0	0	0	0	0	0
 rashnesse	0	0	0	0	0	0
@@ -10684,7 +10344,6 @@ rate	0	0	0	0	0	0
 rather	0	0	0	0	0	0
 ratifier	0	0	0	0	0	0
 ratify	0	0	0	0	0	0
-rating	0	0	0	0	0	0
 rational	0	0	0	0	0	0
 ratle	0	0	0	0	0	0
 rattle	0	0	0	0	0	0
@@ -10696,7 +10355,6 @@ ravage	0	0	0	0	0	0
 rave	0	0	0	0	0	0
 raven	0	0	0	0	0	0
 ravening	0	0	0	0	0	0
-ravenous	0	0	0	0	0	0
 raw	0	0	0	0	0	0
 ray	0	0	0	0	0	0
 rayther	0	0	0	0	0	0
@@ -10744,7 +10402,6 @@ rec	0	0	0	0	0	0
 recall	0	0	0	0	0	0
 recalled	0	0	0	0	0	0
 recame	0	0	0	0	0	0
-recant	0	0	0	0	0	0
 recapture	0	0	0	0	0	0
 recede	0	0	0	0	0	0
 receipt	0	0	0	0	0	0
@@ -10809,7 +10466,6 @@ recumbent	0	0	0	0	0	0
 recur	0	0	0	0	0	0
 red	0	0	0	0	0	0
 redden	0	0	0	0	0	0
-reddest	0	0	0	0	0	0
 reddish	0	0	0	0	0	0
 redeem	0	0	0	0	0	0
 redeemed	0	0	0	0	0	0
@@ -10820,7 +10476,6 @@ redistribute	0	0	0	0	0	0
 redistribution	0	0	0	0	0	0
 redness	0	0	0	0	0	0
 redouble	0	0	0	0	0	0
-redoubte	0	0	0	0	0	0
 redress	0	0	0	0	0	0
 reduce	0	0	0	0	0	0
 reduced	0	0	0	0	0	0
@@ -10858,7 +10513,6 @@ refreshment	0	0	0	0	0	0
 refuge	0	0	0	0	0	0
 refugee	0	0	0	0	0	0
 refund	0	0	0	0	0	0
-refus	0	0	0	0	0	0
 refusal	0	0	0	0	0	0
 refuse	0	0	0	0	0	0
 reg	0	0	0	0	0	0
@@ -10870,7 +10524,6 @@ regeneration	0	0	0	0	0	0
 regimental	0	0	0	0	0	0
 region	0	0	0	0	0	0
 register	0	0	0	0	0	0
-regreet	0	0	0	0	0	0
 regret	0	0	0	0	0	0
 regrinding	0	0	0	0	0	0
 regular	0	0	0	0	0	0
@@ -10879,7 +10532,6 @@ regularly	0	0	0	0	0	0
 regulate	0	0	0	0	0	0
 regulation	0	0	0	0	0	0
 regulations	0	0	0	0	0	0
-rehear	0	0	0	0	0	0
 rehearse	0	0	0	0	0	0
 reign	0	0	0	0	0	0
 reignes	0	0	0	0	0	0
@@ -11184,17 +10836,12 @@ reway	0	0	0	0	0	0
 rewive	0	0	0	0	0	0
 reynol	0	0	0	0	0	0
 reynoldo	0	0	0	0	0	0
-rhenish	0	0	0	0	0	0
-rheum	0	0	0	0	0	0
 rheume	0	0	0	0	0	0
 rhinocero	0	0	0	0	0	0
 rhyme	0	0	0	0	0	0
 ri	0	0	0	0	0	0
-rialto	0	0	0	0	0	0
-rib	0	0	0	0	0	0
 riband	0	0	0	0	0	0
 ribbon	0	0	0	0	0	0
-ribs	0	0	0	0	0	0
 rich	0	0	0	0	0	0
 riches	0	0	0	0	0	0
 richly	0	0	0	0	0	0
@@ -11202,7 +10849,6 @@ richness	0	0	0	0	0	0
 rick	0	0	0	0	0	0
 rickety	0	0	0	0	0	0
 rid	0	0	0	0	0	0
-riddance	0	0	0	0	0	0
 riddle	0	0	0	0	0	0
 ride	0	0	0	0	0	0
 rider	0	0	0	0	0	0
@@ -11214,11 +10860,9 @@ rifle	0	0	0	0	0	0
 rifting	0	0	0	0	0	0
 right	0	0	0	0	0	0
 righteous	0	0	0	0	0	0
-rightful	0	0	0	0	0	0
 rightly	0	0	0	0	0	0
 rigid	0	0	0	0	0	0
 rigidly	0	0	0	0	0	0
-rigorous	0	0	0	0	0	0
 rigour	0	0	0	0	0	0
 rim	0	0	0	0	0	0
 rime	0	0	0	0	0	0
@@ -11234,7 +10878,6 @@ ripen	0	0	0	0	0	0
 ripple	0	0	0	0	0	0
 rise	0	0	0	0	0	0
 risen	0	0	0	0	0	0
-riseth	0	0	0	0	0	0
 rising	0	0	0	0	0	0
 risk	0	0	0	0	0	0
 rite	0	0	0	0	0	0
@@ -11242,7 +10885,6 @@ rites	0	0	0	0	0	0
 riual	0	0	0	0	0	0
 riuer	0	0	0	0	0	0
 riuet	0	0	0	0	0	0
-rival	0	0	0	0	0	0
 rive	0	0	0	0	0	0
 river	0	0	0	0	0	0
 rivet	0	0	0	0	0	0
@@ -11397,7 +11039,6 @@ rye	0	0	0	0	0	0
 rã	0	0	0	0	0	0
 s	0	0	0	0	0	0
 sa	0	0	0	0	0	0
-sabbath	0	0	0	0	0	0
 sable	0	0	0	0	0	0
 sabre	0	0	0	0	0	0
 sack	0	0	0	0	0	0
@@ -11428,16 +11069,13 @@ saide	0	0	0	0	0	0
 sail	0	0	0	0	0	0
 saile	0	0	0	0	0	0
 sailing	0	0	0	0	0	0
-sailor	0	0	0	0	0	0
 saint	0	0	0	0	0	0
 sainte	0	0	0	0	0	0
 saintly	0	0	0	0	0	0
 saith	0	0	0	0	0	0
 sake	0	0	0	0	0	0
-salarino	0	0	0	0	0	0
 salary	0	0	0	0	0	0
 sale	0	0	0	0	0	0
-salerio	0	0	0	0	0	0
 salesman	0	0	0	0	0	0
 sallery	0	0	0	0	0	0
 sallet	0	0	0	0	0	0
@@ -11450,7 +11088,6 @@ salutary	0	0	0	0	0	0
 salutation	0	0	0	0	0	0
 salute	0	0	0	0	0	0
 saluteth	0	0	0	0	0	0
-salvation	0	0	0	0	0	0
 samaritan	0	0	0	0	0	0
 samp	0	0	0	0	0	0
 sample	0	0	0	0	0	0
@@ -11511,7 +11148,6 @@ saw	0	0	0	0	0	0
 sawes	0	0	0	0	0	0
 sawn	0	0	0	0	0	0
 sawyer	0	0	0	0	0	0
-saxony	0	0	0	0	0	0
 say	0	0	0	0	0	0
 saye	0	0	0	0	0	0
 sayes	0	0	0	0	0	0
@@ -11553,10 +11189,7 @@ scattered	0	0	0	0	0	0
 scavenger	0	0	0	0	0	0
 scena	0	0	0	0	0	0
 scene	0	0	0	0	0	0
-scenedesc	0	0	0	0	0	0
 scent	0	0	0	0	0	0
-sceptre	0	0	0	0	0	0
-schedule	0	0	0	0	0	0
 scheme	0	0	0	0	0	0
 scholar	0	0	0	0	0	0
 scholler	0	0	0	0	0	0
@@ -11566,7 +11199,6 @@ schoole	0	0	0	0	0	0
 schoolmaster	0	0	0	0	0	0
 science	0	0	0	0	0	0
 scientific	0	0	0	0	0	0
-scimitar	0	0	0	0	0	0
 scoena	0	0	0	0	0	0
 scoene	0	0	0	0	0	0
 scolding	0	0	0	0	0	0
@@ -11580,7 +11212,6 @@ scorne	0	0	0	0	0	0
 scornful	0	0	0	0	0	0
 scornfully	0	0	0	0	0	0
 scot	0	0	0	0	0	0
-scottish	0	0	0	0	0	0
 scoundrel	0	0	0	0	0	0
 scour	0	0	0	0	0	0
 scourge	0	0	0	0	0	0
@@ -11608,10 +11239,8 @@ screw	0	0	0	0	0	0
 screwing	0	0	0	0	0	0
 scripture	0	0	0	0	0	0
 scro	0	0	0	0	0	0
-scroll	0	0	0	0	0	0
 scrooge	0	0	0	0	0	0
 scrub	0	0	0	0	0	0
-scrubbed	0	0	0	0	0	0
 scruple	0	0	0	0	0	0
 scrupulous	0	0	0	0	0	0
 scrupulously	0	0	0	0	0	0
@@ -11626,9 +11255,7 @@ scullion	0	0	0	0	0	0
 sculptured	0	0	0	0	0	0
 scum	0	0	0	0	0	0
 scurvy	0	0	0	0	0	0
-scuse	0	0	0	0	0	0
 scuttle	0	0	0	0	0	0
-scylla	0	0	0	0	0	0
 se	0	0	0	0	0	0
 sea	0	0	0	0	0	0
 seacoast	0	0	0	0	0	0
@@ -11767,7 +11394,6 @@ serviceable	0	0	0	0	0	0
 servility	0	0	0	0	0	0
 servingman	0	0	0	0	0	0
 servingmen	0	0	0	0	0	0
-servitor	0	0	0	0	0	0
 session	0	0	0	0	0	0
 set	0	0	0	0	0	0
 setled	0	0	0	0	0	0
@@ -11854,7 +11480,6 @@ sheltered	0	0	0	0	0	0
 shelving	0	0	0	0	0	0
 shent	0	0	0	0	0	0
 shepheard	0	0	0	0	0	0
-shepherd	0	0	0	0	0	0
 shepperton	0	0	0	0	0	0
 sheriff	0	0	0	0	0	0
 shew	0	0	0	0	0	0
@@ -11876,7 +11501,6 @@ shiny	0	0	0	0	0	0
 ship	0	0	0	0	0	0
 shippe	0	0	0	0	0	0
 shipping	0	0	0	0	0	0
-ships	0	0	0	0	0	0
 shipwreck	0	0	0	0	0	0
 shipwright	0	0	0	0	0	0
 shirt	0	0	0	0	0	0
@@ -11915,7 +11539,6 @@ shouell	0	0	0	0	0	0
 shoul	0	0	0	0	0	0
 shoulder	0	0	0	0	0	0
 shouldering	0	0	0	0	0	0
-shouldst	0	0	0	0	0	0
 shout	0	0	0	0	0	0
 shouting	0	0	0	0	0	0
 shove	0	0	0	0	0	0
@@ -11927,7 +11550,6 @@ showing	0	0	0	0	0	0
 showre	0	0	0	0	0	0
 shre	0	0	0	0	0	0
 shred	0	0	0	0	0	0
-shrew	0	0	0	0	0	0
 shrewd	0	0	0	0	0	0
 shrewdly	0	0	0	0	0	0
 shrewsbury	0	0	0	0	0	0
@@ -11939,7 +11561,6 @@ shrine	0	0	0	0	0	0
 shrink	0	0	0	0	0	0
 shriue	0	0	0	0	0	0
 shriv	0	0	0	0	0	0
-shrive	0	0	0	0	0	0
 shrivel	0	0	0	0	0	0
 shroud	0	0	0	0	0	0
 shrouded	0	0	0	0	0	0
@@ -11950,7 +11571,6 @@ shrugs	0	0	0	0	0	0
 shrunk	0	0	0	0	0	0
 shrunke	0	0	0	0	0	0
 shrunken	0	0	0	0	0	0
-shudd	0	0	0	0	0	0
 shudder	0	0	0	0	0	0
 shuddered	0	0	0	0	0	0
 shuddering	0	0	0	0	0	0
@@ -11962,9 +11582,7 @@ shunn	0	0	0	0	0	0
 shut	0	0	0	0	0	0
 shutter	0	0	0	0	0	0
 shy	0	0	0	0	0	0
-shylock	0	0	0	0	0	0
 shyly	0	0	0	0	0	0
-sibylla	0	0	0	0	0	0
 sick	0	0	0	0	0	0
 sicke	0	0	0	0	0	0
 sicken	0	0	0	0	0	0
@@ -12030,7 +11648,6 @@ sind	0	0	0	0	0	0
 sindge	0	0	0	0	0	0
 sinecure	0	0	0	0	0	0
 sinewes	0	0	0	0	0	0
-sinful	0	0	0	0	0	0
 sing	0	0	0	0	0	0
 singe	0	0	0	0	0	0
 singer	0	0	0	0	0	0
@@ -12117,7 +11734,6 @@ slaught	0	0	0	0	0	0
 slaughter	0	0	0	0	0	0
 slave	0	0	0	0	0	0
 slavery	0	0	0	0	0	0
-slavish	0	0	0	0	0	0
 slay	0	0	0	0	0	0
 sledde	0	0	0	0	0	0
 sledge	0	0	0	0	0	0
@@ -12145,12 +11761,10 @@ slim	0	0	0	0	0	0
 slime	0	0	0	0	0	0
 slimy	0	0	0	0	0	0
 sling	0	0	0	0	0	0
-slink	0	0	0	0	0	0
 slinking	0	0	0	0	0	0
 slip	0	0	0	0	0	0
 slipper	0	0	0	0	0	0
 slippere	0	0	0	0	0	0
-slips	0	0	0	0	0	0
 slipshod	0	0	0	0	0	0
 sliuer	0	0	0	0	0	0
 slop	0	0	0	0	0	0
@@ -12161,7 +11775,6 @@ slovenly	0	0	0	0	0	0
 slow	0	0	0	0	0	0
 slowly	0	0	0	0	0	0
 slowness	0	0	0	0	0	0
-slubber	0	0	0	0	0	0
 slug	0	0	0	0	0	0
 sluggish	0	0	0	0	0	0
 sluggishly	0	0	0	0	0	0
@@ -12213,13 +11826,10 @@ smote	0	0	0	0	0	0
 smother	0	0	0	0	0	0
 smothering	0	0	0	0	0	0
 smoulder	0	0	0	0	0	0
-smug	0	0	0	0	0	0
 smuggler	0	0	0	0	0	0
 snail	0	0	0	0	0	0
 snake	0	0	0	0	0	0
-snaky	0	0	0	0	0	0
 snap	0	0	0	0	0	0
-snapper	0	0	0	0	0	0
 snappish	0	0	0	0	0	0
 snappishly	0	0	0	0	0	0
 snare	0	0	0	0	0	0
@@ -12278,9 +11888,7 @@ soil	0	0	0	0	0	0
 sojourn	0	0	0	0	0	0
 soke	0	0	0	0	0	0
 sol	0	0	0	0	0	0
-sola	0	0	0	0	0	0
 solace	0	0	0	0	0	0
-solanio	0	0	0	0	0	0
 soldier	0	0	0	0	0	0
 soldiery	0	0	0	0	0	0
 soldiour	0	0	0	0	0	0
@@ -12290,8 +11898,6 @@ solemn	0	0	0	0	0	0
 solemne	0	0	0	0	0	0
 solemnise	0	0	0	0	0	0
 solemnity	0	0	0	0	0	0
-solemniz	0	0	0	0	0	0
-solemnize	0	0	0	0	0	0
 solemnly	0	0	0	0	0	0
 solicit	0	0	0	0	0	0
 solicitation	0	0	0	0	0	0
@@ -12306,7 +11912,6 @@ sollemne	0	0	0	0	0	0
 solomon	0	0	0	0	0	0
 solution	0	0	0	0	0	0
 solve	0	0	0	0	0	0
-solyman	0	0	0	0	0	0
 sombre	0	0	0	0	0	0
 somebody	0	0	0	0	0	0
 somehow	0	0	0	0	0	0
@@ -12326,18 +11931,15 @@ sonne	0	0	0	0	0	0
 sonnes	0	0	0	0	0	0
 sonnet	0	0	0	0	0	0
 sonorous	0	0	0	0	0	0
-sontie	0	0	0	0	0	0
 soon	0	0	0	0	0	0
 soone	0	0	0	0	0	0
 soonest	0	0	0	0	0	0
 soop	0	0	0	0	0	0
 soot	0	0	0	0	0	0
-sooth	0	0	0	0	0	0
 soothe	0	0	0	0	0	0
 soothed	0	0	0	0	0	0
 soothingly	0	0	0	0	0	0
 sooty	0	0	0	0	0	0
-sophy	0	0	0	0	0	0
 sorceress	0	0	0	0	0	0
 sordid	0	0	0	0	0	0
 sordidly	0	0	0	0	0	0
@@ -12436,7 +12038,6 @@ spelt	0	0	0	0	0	0
 spencer	0	0	0	0	0	0
 spend	0	0	0	0	0	0
 spending	0	0	0	0	0	0
-spet	0	0	0	0	0	0
 sphere	0	0	0	0	0	0
 spi	0	0	0	0	0	0
 spice	0	0	0	0	0	0
@@ -12503,7 +12104,6 @@ spundge	0	0	0	0	0	0
 spur	0	0	0	0	0	0
 spurn	0	0	0	0	0	0
 spurne	0	0	0	0	0	0
-spurrer	0	0	0	0	0	0
 sputter	0	0	0	0	0	0
 spy	0	0	0	0	0	0
 spyer	0	0	0	0	0	0
@@ -12518,7 +12118,6 @@ squaring	0	0	0	0	0	0
 squash	0	0	0	0	0	0
 squeak	0	0	0	0	0	0
 squeaking	0	0	0	0	0	0
-squealing	0	0	0	0	0	0
 squeeze	0	0	0	0	0	0
 squire	0	0	0	0	0	0
 squirrel	0	0	0	0	0	0
@@ -12618,7 +12217,6 @@ stem	0	0	0	0	0	0
 stench	0	0	0	0	0	0
 stentorian	0	0	0	0	0	0
 step	0	0	0	0	0	0
-stephano	0	0	0	0	0	0
 stepped	0	0	0	0	0	0
 ster	0	0	0	0	0	0
 stern	0	0	0	0	0	0
@@ -12663,7 +12261,6 @@ stockade	0	0	0	0	0	0
 stocke	0	0	0	0	0	0
 stocking	0	0	0	0	0	0
 stockinge	0	0	0	0	0	0
-stockish	0	0	0	0	0	0
 stoke	0	0	0	0	0	0
 stol	0	0	0	0	0	0
 stole	0	0	0	0	0	0
@@ -12761,7 +12358,6 @@ stroake	0	0	0	0	0	0
 strode	0	0	0	0	0	0
 stroke	0	0	0	0	0	0
 stroll	0	0	0	0	0	0
-strond	0	0	0	0	0	0
 strong	0	0	0	0	0	0
 stronghold	0	0	0	0	0	0
 strongly	0	0	0	0	0	0
@@ -12783,7 +12379,6 @@ strutted	0	0	0	0	0	0
 stryver	0	0	0	0	0	0
 stuart	0	0	0	0	0	0
 stubble	0	0	0	0	0	0
-stubborn	0	0	0	0	0	0
 stubborne	0	0	0	0	0	0
 stubbornness	0	0	0	0	0	0
 stubbornnesse	0	0	0	0	0	0
@@ -12865,9 +12460,7 @@ suddenly	0	0	0	0	0	0
 suddenness	0	0	0	0	0	0
 sue	0	0	0	0	0	0
 suet	0	0	0	0	0	0
-suff	0	0	0	0	0	0
 suffer	0	0	0	0	0	0
-sufferance	0	0	0	0	0	0
 suffered	0	0	0	0	0	0
 sufferer	0	0	0	0	0	0
 suffering	0	0	0	0	0	0
@@ -12935,7 +12528,6 @@ superadde	0	0	0	0	0	0
 superb	0	0	0	0	0	0
 superciliously	0	0	0	0	0	0
 superfine	0	0	0	0	0	0
-superfluity	0	0	0	0	0	0
 superfluous	0	0	0	0	0	0
 superintendence	0	0	0	0	0	0
 superior	0	0	0	0	0	0
@@ -12974,10 +12566,8 @@ surcease	0	0	0	0	0	0
 sure	0	0	0	0	0	0
 surely	0	0	0	0	0	0
 surer	0	0	0	0	0	0
-surety	0	0	0	0	0	0
 surf	0	0	0	0	0	0
 surface	0	0	0	0	0	0
-surfeit	0	0	0	0	0	0
 surge	0	0	0	0	0	0
 surgeon	0	0	0	0	0	0
 surly	0	0	0	0	0	0
@@ -13069,7 +12659,6 @@ sworne	0	0	0	0	0	0
 swounde	0	0	0	0	0	0
 swubble	0	0	0	0	0	0
 swung	0	0	0	0	0	0
-sy	0	0	0	0	0	0
 sycamore	0	0	0	0	0	0
 syd	0	0	0	0	0	0
 sydney	0	0	0	0	0	0
@@ -13079,7 +12668,6 @@ symbolical	0	0	0	0	0	0
 sympathise	0	0	0	0	0	0
 sympathy	0	0	0	0	0	0
 symptom	0	0	0	0	0	0
-synagogue	0	0	0	0	0	0
 synod	0	0	0	0	0	0
 synonymous	0	0	0	0	0	0
 system	0	0	0	0	0	0
@@ -13102,7 +12690,6 @@ tailpiece	0	0	0	0	0	0
 tailpiecevi	0	0	0	0	0	0
 taint	0	0	0	0	0	0
 tainted	0	0	0	0	0	0
-tak	0	0	0	0	0	0
 take	0	0	0	0	0	0
 taken	0	0	0	0	0	0
 taker	0	0	0	0	0	0
@@ -13153,7 +12740,6 @@ tattered	0	0	0	0	0	0
 taunt	0	0	0	0	0	0
 taunts	0	0	0	0	0	0
 tavern	0	0	0	0	0	0
-tawny	0	0	0	0	0	0
 tax	0	0	0	0	0	0
 taxer	0	0	0	0	0	0
 taxis	0	0	0	0	0	0
@@ -13163,7 +12749,6 @@ teaboard	0	0	0	0	0	0
 teach	0	0	0	0	0	0
 teacher	0	0	0	0	0	0
 teaches	0	0	0	0	0	0
-teaching	0	0	0	0	0	0
 teacupful	0	0	0	0	0	0
 team	0	0	0	0	0	0
 teapot	0	0	0	0	0	0
@@ -13177,7 +12762,6 @@ tears	0	0	0	0	0	0
 teaspoon	0	0	0	0	0	0
 teat	0	0	0	0	0	0
 tedious	0	0	0	0	0	0
-tediousness	0	0	0	0	0	0
 tediousnesse	0	0	0	0	0	0
 teel	0	0	0	0	0	0
 teem	0	0	0	0	0	0
@@ -13202,7 +12786,6 @@ temperature	0	0	0	0	0	0
 tempest	0	0	0	0	0	0
 template	0	0	0	0	0	0
 temple	0	0	0	0	0	0
-temporal	0	0	0	0	0	0
 temporarily	0	0	0	0	0	0
 temporary	0	0	0	0	0	0
 tempt	0	0	0	0	0	0
@@ -13222,8 +12805,6 @@ tenderly	0	0	0	0	0	0
 tenderness	0	0	0	0	0	0
 tenement	0	0	0	0	0	0
 tennis	0	0	0	0	0	0
-tenour	0	0	0	0	0	0
-tent	0	0	0	0	0	0
 tenterhook	0	0	0	0	0	0
 tenth	0	0	0	0	0	0
 tenure	0	0	0	0	0	0
@@ -13262,7 +12843,6 @@ thanke	0	0	0	0	0	0
 thanked	0	0	0	0	0	0
 thankee	0	0	0	0	0	0
 thankful	0	0	0	0	0	0
-thankfully	0	0	0	0	0	0
 thankfulness	0	0	0	0	0	0
 thanking	0	0	0	0	0	0
 thankless	0	0	0	0	0	0
@@ -13335,7 +12915,6 @@ thirsty	0	0	0	0	0	0
 thirteen	0	0	0	0	0	0
 thirtie	0	0	0	0	0	0
 thirty	0	0	0	0	0	0
-thisby	0	0	0	0	0	0
 thither	0	0	0	0	0	0
 thorn	0	0	0	0	0	0
 thorne	0	0	0	0	0	0
@@ -13365,7 +12944,6 @@ threescore	0	0	0	0	0	0
 threshold	0	0	0	0	0	0
 thrice	0	0	0	0	0	0
 thrift	0	0	0	0	0	0
-thrifty	0	0	0	0	0	0
 thrill	0	0	0	0	0	0
 thrilled	0	0	0	0	0	0
 thrive	0	0	0	0	0	0
@@ -13374,9 +12952,7 @@ throate	0	0	0	0	0	0
 throbbing	0	0	0	0	0	0
 throne	0	0	0	0	0	0
 throng	0	0	0	0	0	0
-throstle	0	0	0	0	0	0
 throttle	0	0	0	0	0	0
-throughfare	0	0	0	0	0	0
 throughly	0	0	0	0	0	0
 throughout	0	0	0	0	0	0
 throw	0	0	0	0	0	0
@@ -13467,7 +13043,6 @@ tobacco	0	0	0	0	0	0
 tobaccoey	0	0	0	0	0	0
 toby	0	0	0	0	0	0
 tocsin	0	0	0	0	0	0
-today	0	0	0	0	0	0
 toe	0	0	0	0	0	0
 together	0	0	0	0	0	0
 togs	0	0	0	0	0	0
@@ -13490,7 +13065,6 @@ tomorrow	0	0	0	0	0	0
 tone	0	0	0	0	0	0
 tong	0	0	0	0	0	0
 tongue	0	0	0	0	0	0
-tonight	0	0	0	0	0	0
 took	0	0	0	0	0	0
 tooke	0	0	0	0	0	0
 tool	0	0	0	0	0	0
@@ -13514,8 +13088,6 @@ torrent	0	0	0	0	0	0
 tortoise	0	0	0	0	0	0
 tortuous	0	0	0	0	0	0
 torture	0	0	0	0	0	0
-torturer	0	0	0	0	0	0
-torturest	0	0	0	0	0	0
 toss	0	0	0	0	0	0
 tossed	0	0	0	0	0	0
 tossing	0	0	0	0	0	0
@@ -13564,7 +13136,6 @@ trait	0	0	0	0	0	0
 traitor	0	0	0	0	0	0
 traitorous	0	0	0	0	0	0
 traitorously	0	0	0	0	0	0
-traject	0	0	0	0	0	0
 tramp	0	0	0	0	0	0
 tramper	0	0	0	0	0	0
 tramping	0	0	0	0	0	0
@@ -13583,7 +13154,6 @@ transcriber	0	0	0	0	0	0
 transcription	0	0	0	0	0	0
 transfer	0	0	0	0	0	0
 transfixed	0	0	0	0	0	0
-transform	0	0	0	0	0	0
 transformation	0	0	0	0	0	0
 transforme	0	0	0	0	0	0
 transgression	0	0	0	0	0	0
@@ -13647,7 +13217,6 @@ trick	0	0	0	0	0	0
 tricke	0	0	0	0	0	0
 trickle	0	0	0	0	0	0
 trickling	0	0	0	0	0	0
-tricksy	0	0	0	0	0	0
 tricoloure	0	0	0	0	0	0
 tride	0	0	0	0	0	0
 trident	0	0	0	0	0	0
@@ -13661,8 +13230,6 @@ trimming	0	0	0	0	0	0
 trinity	0	0	0	0	0	0
 trinket	0	0	0	0	0	0
 trip	0	0	0	0	0	0
-tripoli	0	0	0	0	0	0
-tripolis	0	0	0	0	0	0
 trippingly	0	0	0	0	0	0
 tristfull	0	0	0	0	0	0
 triuiall	0	0	0	0	0	0
@@ -13674,8 +13241,6 @@ trivet	0	0	0	0	0	0
 trivial	0	0	0	0	0	0
 trod	0	0	0	0	0	0
 trodden	0	0	0	0	0	0
-troilus	0	0	0	0	0	0
-trojan	0	0	0	0	0	0
 troop	0	0	0	0	0	0
 trophee	0	0	0	0	0	0
 trophy	0	0	0	0	0	0
@@ -13690,7 +13255,6 @@ troublesome	0	0	0	0	0	0
 troubling	0	0	0	0	0	0
 trouser	0	0	0	0	0	0
 trow	0	0	0	0	0	0
-troy	0	0	0	0	0	0
 truant	0	0	0	0	0	0
 truce	0	0	0	0	0	0
 truckle	0	0	0	0	0	0
@@ -13718,10 +13282,8 @@ try	0	0	0	0	0	0
 tryall	0	0	0	0	0	0
 tst	0	0	0	0	0	0
 tub	0	0	0	0	0	0
-tubal	0	0	0	0	0	0
 tuck	0	0	0	0	0	0
 tucker	0	0	0	0	0	0
-tucket	0	0	0	0	0	0
 tuesday	0	0	0	0	0	0
 tug	0	0	0	0	0	0
 tugging	0	0	0	0	0	0
@@ -13758,7 +13320,6 @@ turnham	0	0	0	0	0	0
 turning	0	0	0	0	0	0
 turnkey	0	0	0	0	0	0
 turnpike	0	0	0	0	0	0
-turquoise	0	0	0	0	0	0
 tush	0	0	0	0	0	0
 tut	0	0	0	0	0	0
 tutor	0	0	0	0	0	0
@@ -13767,7 +13328,6 @@ twain	0	0	0	0	0	0
 twaine	0	0	0	0	0	0
 twas	0	0	0	0	0	0
 tweake	0	0	0	0	0	0
-tween	0	0	0	0	0	0
 tweene	0	0	0	0	0	0
 twelfth	0	0	0	0	0	0
 twelue	0	0	0	0	0	0
@@ -13845,7 +13405,6 @@ unavailingly	0	0	0	0	0	0
 unavenge	0	0	0	0	0	0
 unavoidable	0	0	0	0	0	0
 unbarred	0	0	0	0	0	0
-unbated	0	0	0	0	0	0
 unbearable	0	0	0	0	0	0
 unbecoming	0	0	0	0	0	0
 unbeknown	0	0	0	0	0	0
@@ -13860,10 +13419,8 @@ unbroken	0	0	0	0	0	0
 unbruised	0	0	0	0	0	0
 unbrutalise	0	0	0	0	0	0
 unbuilt	0	0	0	0	0	0
-unburden	0	0	0	0	0	0
 unbuttoned	0	0	0	0	0	0
 unc	0	0	0	0	0	0
-uncapable	0	0	0	0	0	0
 uncared	0	0	0	0	0	0
 uncarpeted	0	0	0	0	0	0
 unceasingly	0	0	0	0	0	0
@@ -13912,7 +13469,6 @@ undergrown	0	0	0	0	0	0
 underline	0	0	0	0	0	0
 undermine	0	0	0	0	0	0
 underneath	0	0	0	0	0	0
-underprize	0	0	0	0	0	0
 understand	0	0	0	0	0	0
 understanding	0	0	0	0	0	0
 undertake	0	0	0	0	0	0
@@ -13920,11 +13476,8 @@ undertaker	0	0	0	0	0	0
 undertaking	0	0	0	0	0	0
 undertone	0	0	0	0	0	0
 undertook	0	0	0	0	0	0
-undervalu	0	0	0	0	0	0
-undervalue	0	0	0	0	0	0
 underwent	0	0	0	0	0	0
 undeserve	0	0	0	0	0	0
-undeserved	0	0	0	0	0	0
 undigeste	0	0	0	0	0	0
 undiminishe	0	0	0	0	0	0
 undiminished	0	0	0	0	0	0
@@ -13979,7 +13532,6 @@ unfirm	0	0	0	0	0	0
 unfit	0	0	0	0	0	0
 unfold	0	0	0	0	0	0
 unforeseen	0	0	0	0	0	0
-unforfeited	0	0	0	0	0	0
 unformed	0	0	0	0	0	0
 unfortunate	0	0	0	0	0	0
 unfortunately	0	0	0	0	0	0
@@ -13997,7 +13549,6 @@ ungratefullest	0	0	0	0	0	0
 unguarded	0	0	0	0	0	0
 unhallowed	0	0	0	0	0	0
 unhand	0	0	0	0	0	0
-unhandle	0	0	0	0	0	0
 unhandsomely	0	0	0	0	0	0
 unhappily	0	0	0	0	0	0
 unhappiness	0	0	0	0	0	0
@@ -14038,7 +13589,6 @@ unkind	0	0	0	0	0	0
 unknown	0	0	0	0	0	0
 unlawful	0	0	0	0	0	0
 unless	0	0	0	0	0	0
-unlesson	0	0	0	0	0	0
 unlike	0	0	0	0	0	0
 unlikely	0	0	0	0	0	0
 unlimited	0	0	0	0	0	0
@@ -14054,7 +13604,6 @@ unluckily	0	0	0	0	0	0
 unlucky	0	0	0	0	0	0
 unmade	0	0	0	0	0	0
 unmann	0	0	0	0	0	0
-unmannerly	0	0	0	0	0	0
 unmindful	0	0	0	0	0	0
 unmingled	0	0	0	0	0	0
 unmitigated	0	0	0	0	0	0
@@ -14082,7 +13631,6 @@ unpolite	0	0	0	0	0	0
 unpoliteness	0	0	0	0	0	0
 unpopular	0	0	0	0	0	0
 unpopularity	0	0	0	0	0	0
-unpractis	0	0	0	0	0	0
 unprecedented	0	0	0	0	0	0
 unprepared	0	0	0	0	0	0
 unprofitable	0	0	0	0	0	0
@@ -14094,7 +13642,6 @@ unprotected	0	0	0	0	0	0
 unprovoked	0	0	0	0	0	0
 unquenchable	0	0	0	0	0	0
 unquestionably	0	0	0	0	0	0
-unquiet	0	0	0	0	0	0
 unreal	0	0	0	0	0	0
 unreality	0	0	0	0	0	0
 unreasonable	0	0	0	0	0	0
@@ -14109,9 +13656,7 @@ unsafe	0	0	0	0	0	0
 unsatisfactory	0	0	0	0	0	0
 unsatisfie	0	0	0	0	0	0
 unsavoury	0	0	0	0	0	0
-unschool	0	0	0	0	0	0
 unscrupulous	0	0	0	0	0	0
-unseal	0	0	0	0	0	0
 unseasonable	0	0	0	0	0	0
 unseemly	0	0	0	0	0	0
 unseen	0	0	0	0	0	0
@@ -14146,7 +13691,6 @@ untasted	0	0	0	0	0	0
 untaught	0	0	0	0	0	0
 untenanted	0	0	0	0	0	0
 unthankfulness	0	0	0	0	0	0
-unthrift	0	0	0	0	0	0
 unthrifty	0	0	0	0	0	0
 untidy	0	0	0	0	0	0
 untie	0	0	0	0	0	0
@@ -14156,7 +13700,6 @@ unto	0	0	0	0	0	0
 untold	0	0	0	0	0	0
 untouched	0	0	0	0	0	0
 untracked	0	0	0	0	0	0
-untread	0	0	0	0	0	0
 untrimme	0	0	0	0	0	0
 untroubled	0	0	0	0	0	0
 untrue	0	0	0	0	0	0
@@ -14165,7 +13708,6 @@ unusually	0	0	0	0	0	0
 unwash	0	0	0	0	0	0
 unwashed	0	0	0	0	0	0
 unwatched	0	0	0	0	0	0
-unwearie	0	0	0	0	0	0
 unwelcome	0	0	0	0	0	0
 unwept	0	0	0	0	0	0
 unwholesome	0	0	0	0	0	0
@@ -14177,7 +13719,6 @@ unwillingness	0	0	0	0	0	0
 unwin	0	0	0	0	0	0
 unwonted	0	0	0	0	0	0
 unworthi	0	0	0	0	0	0
-unworthier	0	0	0	0	0	0
 unworthily	0	0	0	0	0	0
 unworthiness	0	0	0	0	0	0
 unworthy	0	0	0	0	0	0
@@ -14212,12 +13753,9 @@ urg	0	0	0	0	0	0
 urge	0	0	0	0	0	0
 urgent	0	0	0	0	0	0
 urgently	0	0	0	0	0	0
-urgest	0	0	0	0	0	0
-urine	0	0	0	0	0	0
 urn	0	0	0	0	0	0
 us	0	0	0	0	0	0
 usage	0	0	0	0	0	0
-usance	0	0	0	0	0	0
 use	0	0	0	0	0	0
 used	0	0	0	0	0	0
 useful	0	0	0	0	0	0
@@ -14230,7 +13768,6 @@ using	0	0	0	0	0	0
 ust	0	0	0	0	0	0
 usual	0	0	0	0	0	0
 usually	0	0	0	0	0	0
-usur	0	0	0	0	0	0
 usurer	0	0	0	0	0	0
 ut	0	0	0	0	0	0
 utensil	0	0	0	0	0	0
@@ -14242,7 +13779,6 @@ uttered	0	0	0	0	0	0
 utterer	0	0	0	0	0	0
 uttering	0	0	0	0	0	0
 utterly	0	0	0	0	0	0
-uttermost	0	0	0	0	0	0
 v	0	0	0	0	0	0
 vacancie	0	0	0	0	0	0
 vacant	0	0	0	0	0	0
@@ -14253,7 +13789,6 @@ vagrancy	0	0	0	0	0	0
 vagrant	0	0	0	0	0	0
 vague	0	0	0	0	0	0
 vaguely	0	0	0	0	0	0
-vaile	0	0	0	0	0	0
 vain	0	0	0	0	0	0
 vaine	0	0	0	0	0	0
 vainly	0	0	0	0	0	0
@@ -14292,7 +13827,6 @@ vary	0	0	0	0	0	0
 vase	0	0	0	0	0	0
 vassal	0	0	0	0	0	0
 vast	0	0	0	0	0	0
-vasty	0	0	0	0	0	0
 vault	0	0	0	0	0	0
 vaulty	0	0	0	0	0	0
 vaunt	0	0	0	0	0	0
@@ -14309,18 +13843,14 @@ vehicle	0	0	0	0	0	0
 veil	0	0	0	0	0	0
 vein	0	0	0	0	0	0
 veinous	0	0	0	0	0	0
-veins	0	0	0	0	0	0
 velvet	0	0	0	0	0	0
 velveteen	0	0	0	0	0	0
 vend	0	0	0	0	0	0
-vendible	0	0	0	0	0	0
 vendor	0	0	0	0	0	0
 venerable	0	0	0	0	0	0
 veneration	0	0	0	0	0	0
-venetian	0	0	0	0	0	0
 venge	0	0	0	0	0	0
 vengeance	0	0	0	0	0	0
-venice	0	0	0	0	0	0
 venom	0	0	0	0	0	0
 venome	0	0	0	0	0	0
 vent	0	0	0	0	0	0
@@ -14328,7 +13858,6 @@ ventige	0	0	0	0	0	0
 ventriloquial	0	0	0	0	0	0
 venture	0	0	0	0	0	0
 ventured	0	0	0	0	0	0
-ventures	0	0	0	0	0	0
 venu	0	0	0	0	0	0
 venus	0	0	0	0	0	0
 ver	0	0	0	0	0	0
@@ -14354,7 +13883,6 @@ vessel	0	0	0	0	0	0
 vestal	0	0	0	0	0	0
 vestige	0	0	0	0	0	0
 vestry	0	0	0	0	0	0
-vesture	0	0	0	0	0	0
 vex	0	0	0	0	0	0
 vexation	0	0	0	0	0	0
 veyle	0	0	0	0	0	0
@@ -14385,7 +13913,6 @@ vii	0	0	0	0	0	0
 viii	0	0	0	0	0	0
 vilde	0	0	0	0	0	0
 vile	0	0	0	0	0	0
-vilely	0	0	0	0	0	0
 vilest	0	0	0	0	0	0
 vilkin	0	0	0	0	0	0
 village	0	0	0	0	0	0
@@ -14412,7 +13939,6 @@ violl	0	0	0	0	0	0
 virgin	0	0	0	0	0	0
 virtually	0	0	0	0	0	0
 virtue	0	0	0	0	0	0
-virtues	0	0	0	0	0	0
 virtuous	0	0	0	0	0	0
 virus	0	0	0	0	0	0
 visage	0	0	0	0	0	0
@@ -14614,7 +14140,6 @@ wallow	0	0	0	0	0	0
 walnut	0	0	0	0	0	0
 walton	0	0	0	0	0	0
 wan	0	0	0	0	0	0
-wand	0	0	0	0	0	0
 wander	0	0	0	0	0	0
 wandered	0	0	0	0	0	0
 wanderer	0	0	0	0	0	0
@@ -14714,7 +14239,6 @@ weapon	0	0	0	0	0	0
 wear	0	0	0	0	0	0
 weare	0	0	0	0	0	0
 wearer	0	0	0	0	0	0
-wearie	0	0	0	0	0	0
 wearied	0	0	0	0	0	0
 wearily	0	0	0	0	0	0
 weariness	0	0	0	0	0	0
@@ -14728,7 +14252,6 @@ website	0	0	0	0	0	0
 wed	0	0	0	0	0	0
 wedding	0	0	0	0	0	0
 wedge	0	0	0	0	0	0
-wedlock	0	0	0	0	0	0
 wednesday	0	0	0	0	0	0
 wee	0	0	0	0	0	0
 weed	0	0	0	0	0	0
@@ -14767,7 +14290,6 @@ west	0	0	0	0	0	0
 westminster	0	0	0	0	0	0
 westward	0	0	0	0	0	0
 wet	0	0	0	0	0	0
-wether	0	0	0	0	0	0
 whale	0	0	0	0	0	0
 wharf	0	0	0	0	0	0
 wharfe	0	0	0	0	0	0
@@ -14787,7 +14309,6 @@ where	0	0	0	0	0	0
 whereabout	0	0	0	0	0	0
 whereas	0	0	0	0	0	0
 whereat	0	0	0	0	0	0
-whereby	0	0	0	0	0	0
 wherefore	0	0	0	0	0	0
 wherein	0	0	0	0	0	0
 whereof	0	0	0	0	0	0
@@ -14825,7 +14346,6 @@ whirlpool	0	0	0	0	0	0
 whirrs	0	0	0	0	0	0
 whisk	0	0	0	0	0	0
 whisker	0	0	0	0	0	0
-whisp	0	0	0	0	0	0
 whisper	0	0	0	0	0	0
 whispering	0	0	0	0	0	0
 whist	0	0	0	0	0	0
@@ -14891,7 +14411,6 @@ wilderness	0	0	0	0	0	0
 wildest	0	0	0	0	0	0
 wildly	0	0	0	0	0	0
 wildness	0	0	0	0	0	0
-wilds	0	0	0	0	0	0
 wile	0	0	0	0	0	0
 wilful	0	0	0	0	0	0
 wilfully	0	0	0	0	0	0
@@ -14933,7 +14452,6 @@ wintry	0	0	0	0	0	0
 wipe	0	0	0	0	0	0
 wiping	0	0	0	0	0	0
 wiry	0	0	0	0	0	0
-wis	0	0	0	0	0	0
 wisdom	0	0	0	0	0	0
 wise	0	0	0	0	0	0
 wisedome	0	0	0	0	0	0
@@ -14969,8 +14487,6 @@ wittenberg	0	0	0	0	0	0
 witticism	0	0	0	0	0	0
 wittingly	0	0	0	0	0	0
 wittle	0	0	0	0	0	0
-wive	0	0	0	0	0	0
-wiving	0	0	0	0	0	0
 woe	0	0	0	0	0	0
 woeful	0	0	0	0	0	0
 woer	0	0	0	0	0	0
@@ -15004,9 +14520,7 @@ wooden	0	0	0	0	0	0
 woodman	0	0	0	0	0	0
 woods	0	0	0	0	0	0
 wooe	0	0	0	0	0	0
-wooer	0	0	0	0	0	0
 woollen	0	0	0	0	0	0
-woolly	0	0	0	0	0	0
 word	0	0	0	0	0	0
 wordy	0	0	0	0	0	0
 wore	0	0	0	0	0	0
@@ -15039,7 +14553,6 @@ worshipper	0	0	0	0	0	0
 worst	0	0	0	0	0	0
 worsted	0	0	0	0	0	0
 worth	0	0	0	0	0	0
-worthiness	0	0	0	0	0	0
 worthless	0	0	0	0	0	0
 worthlessness	0	0	0	0	0	0
 worthy	0	0	0	0	0	0
@@ -15051,7 +14564,6 @@ wouldst	0	0	0	0	0	0
 wound	0	0	0	0	0	0
 wounded	0	0	0	0	0	0
 wow	0	0	0	0	0	0
-wrack	0	0	0	0	0	0
 wracke	0	0	0	0	0	0
 wrangling	0	0	0	0	0	0
 wrap	0	0	0	0	0	0
@@ -15063,7 +14575,6 @@ wrathfully	0	0	0	0	0	0
 wreak	0	0	0	0	0	0
 wreath	0	0	0	0	0	0
 wreck	0	0	0	0	0	0
-wren	0	0	0	0	0	0
 wrench	0	0	0	0	0	0
 wrest	0	0	0	0	0	0
 wrestle	0	0	0	0	0	0
@@ -15086,7 +14597,6 @@ writing	0	0	0	0	0	0
 wrong	0	0	0	0	0	0
 wronged	0	0	0	0	0	0
 wrongfully	0	0	0	0	0	0
-wroth	0	0	0	0	0	0
 wrought	0	0	0	0	0	0
 wrung	0	0	0	0	0	0
 wry	0	0	0	0	0	0
@@ -15187,11 +14697,16 @@ youth	0	0	0	0	0	0
 youthful	0	0	0	0	0	0
 youthfulness	0	0	0	0	0	0
 z	0	0	0	0	0	0
+zcinco	0	0	0	0	0	0
+zcuatro	0	0	0	0	0	0
+zdos	0	0	0	0	0	0
 zeal	0	0	0	0	0	0
 zealous	0	0	0	0	0	0
 zenith	0	0	0	0	0	0
 zip	0	0	0	0	0	0
 zone	0	0	0	0	0	0
 zounds	0	0	0	0	0	0
+zseis	0	0	0	0	0	0
+ztres	0	0	0	0	0	0
+zuno	0	0	0	0	0	0
 â	0	0	0	0	0	0
-ã	0	0	0	0	0	0
