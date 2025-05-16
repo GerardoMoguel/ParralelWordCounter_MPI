@@ -25,11 +25,11 @@ class WordCounters {
     map<string, vector<int>> wordMap;
 
 public:
-    void fileToMap(const string& filename) {
+    void fileToMap(const string& fileName) {
         wordMap.clear();
-        ifstream infile(filename);
+        ifstream infile(fileName);
         if (!infile.is_open()) {
-            cerr << "Could not open map file: " << filename << endl;
+            cerr << "Could not open map file: " << fileName << endl;
             MPI_Abort(MPI_COMM_WORLD, 1);
         }
         string line;
@@ -45,10 +45,10 @@ public:
         }
     }
 
-    void serialCounter(const string& filename) {
-        ifstream books(filename);
+    void serialCounter(const string& fileName) {
+        ifstream books(fileName);
         if (!books.is_open()) {
-            cerr << "Could not open paths file: " << filename << endl;
+            cerr << "Could not open paths file: " << fileName << endl;
             return;
         }
 
@@ -89,7 +89,10 @@ public:
         }
     }
 
-    
+    void parallelCounter(const string& fileName){
+        
+    }
+};
 
 int main(int argc, char* argv[]) {
     MPI_Init(&argc, &argv);
@@ -120,7 +123,7 @@ int main(int argc, char* argv[]) {
 
     wc.fileToMap(mapFile);
     double startMPI = MPI_Wtime();
-    wc.mpiCounter(pathsFile, rank, size);
+    //wc.mpiCounter(pathsFile, rank, size);
     double endMPI   = MPI_Wtime();
     double parallelTime = endMPI - startMPI;
 
