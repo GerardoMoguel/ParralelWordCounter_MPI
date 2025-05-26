@@ -10,7 +10,7 @@ using namespace std;
 
 class SerialCounter {
     map<string, vector<int>> wordMap;
-
+    public:
     void fileToMap(const string& fileName) {
         wordMap.clear();
         ifstream infile(fileName);
